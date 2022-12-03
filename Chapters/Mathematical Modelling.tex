@@ -36,21 +36,27 @@
 	
 	The charging pattern is determined by comparing the Energy required to the Real Time Price and by  identifying the minimum of it. 
 	
-	\begin{center}
-		
-		$T_{n}$ = $\sum^{24}_{i=1}$ ($Ch_{t} $ $\times$ [1 || 0 || -1 ] ) $\ast $ $Rtp_{i}$ 
-    \end{center}	 
+	\begin{equation}
+		\begin{split}
+				T_{n} = \sum_{t=1}^{24} [Ch_{t} \times [1 || 0 || -1 ] ] \ast  Rtp_{i} 
+		\end{split}
+    \end{equation}	 
 	\section{Maximum Power required by EV}
 	
 	
 	Maximum Power demand occurs when all the three vehicles loads are high and the time block of maximum demand is identified. 
+	\begin{equation}
+		\begin{split}
+					P_{t(total)} = P_{t(car)} + P_{t(truck)} + P_{t(bus)}
+		\end{split}
+	\end{equation}	
+
+	\begin{equation}
+		\begin{split}
+				P_{t(total)} = argmax ~~\prod_{i=1}^{24} \ast P_{t(total)}
+		\end{split}
+	\end{equation}
 	
-	\begin{center}
-		
-		$P_{t(total)}$ = $P_{t(car)}$ + $P_{t(truck)}$ + $P_{t(bus)}$
-		
-		$P_{t(total)}$ = argmax $\pi_{i}^{24}$ $\ast$ $P_{t(total)}$
-	\end{center} 
 \section{Equation References - Siva}
 \begin{equation}%\label{eq}
 	\begin{split} 

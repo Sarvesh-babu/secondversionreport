@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.18)  3 DEC 2022 15:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.18)  4 DEC 2022 01:48
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -662,7 +662,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 25.
-<SASTRA_Combined_Logo.jpg, id=109, 1195.1049pt x 284.7438pt>
+<SASTRA_Combined_Logo.jpg, id=117, 1195.1049pt x 284.7438pt>
 File: SASTRA_Combined_Logo.jpg Graphic file (type jpg)
 <use SASTRA_Combined_Logo.jpg>
 Package pdftex.def Info: SASTRA_Combined_Logo.jpg  used on input line 72.
@@ -849,38 +849,55 @@ CHAPTER 2.
 
 ]
 CHAPTER 3.
-<./Figures/classification.png, id=243, 499.8675pt x 216.81pt>
+<./Figures/classification.png, id=259, 499.8675pt x 216.81pt>
 File: ./Figures/classification.png Graphic file (type png)
 <use ./Figures/classification.png>
 Package pdftex.def Info: ./Figures/classification.png  used on input line 10.
 (pdftex.def)             Requested size: 327.19374pt x 141.92061pt.
-) (Chapters/Mathematical Modelling.tex [4
+[4
 
  <./Figures/classification.png>]
+<Figures/Ev_flowchart.jpg, id=269, 875.27pt x 869.2475pt>
+File: Figures/Ev_flowchart.jpg Graphic file (type jpg)
+<use Figures/Ev_flowchart.jpg>
+Package pdftex.def Info: Figures/Ev_flowchart.jpg  used on input line 62.
+(pdftex.def)             Requested size: 420.67665pt x 417.77786pt.
+<Figures/rtp.png, id=270, 546.24075pt x 147.55125pt>
+File: Figures/rtp.png Graphic file (type png)
+<use Figures/rtp.png>
+Package pdftex.def Info: Figures/rtp.png  used on input line 72.
+(pdftex.def)             Requested size: 327.19374pt x 88.38507pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Chapters/Mathematical Modelling.tex [5] [6 <./Figures/Ev_flowchart.jpg>]
+[7 <./Figures/rtp.png>]
 CHAPTER 4.
-! Extra alignment tab has been changed to \cr.
-<template> }$\hfill \endtemplate 
-                                 
-l.58 	\end{split}
-                 
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-! Extra alignment tab has been changed to \cr.
-<template> }$\hfill \endtemplate 
-                                 
-l.58 	\end{split}
-                 
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-[5
+[8
 
 ]
+! Extra alignment tab has been changed to \cr.
+<template> }$\hfill \endtemplate 
+                                 
+l.64 	\end{split}
+                 
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+! Extra alignment tab has been changed to \cr.
+<template> }$\hfill \endtemplate 
+                                 
+l.64 	\end{split}
+                 
+You have given more \span or & marks than there were
+in the preamble to the \halign or \valign now in progress.
+So I'll assume that you meant to type \cr instead.
+
+[9]
 ! Extra }, or forgotten \right.
-l.96 ...V_r\left[\frac{V_{c-in}+V_r}{2V_r}\right]}
+l.102 ..._r\left[\frac{V_{c-in}+V_r}{2V_r}\right]}
                                                   ^3\right\}
 I've deleted a group-closing symbol because it seems to be
 spurious, as in `$x}$'. But perhaps the } is legitimate and
@@ -888,7 +905,7 @@ you forgot something else, as in `\hbox{$x}'. In such cases
 the way to recover is to insert both the forgotten and the
 deleted material, e.g., by typing `I$}'.
 
-[6]) (Chapters/Results.tex [7]
+) (Chapters/Results.tex [10]
 CHAPTER 5.
 
 Overfull \hbox (44.65907pt too wide) in paragraph at lines 11--18
@@ -901,59 +918,101 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Figures/sc 1 (00_00).jpg, id=287, 475.17525pt x 284.262pt>
+<./Figures/sc 1 (00_00).jpg, id=321, 475.17525pt x 284.262pt>
 File: ./Figures/sc 1 (00_00).jpg Graphic file (type jpg)
 <use ./Figures/sc 1 (00_00).jpg>
-Package pdftex.def Info: ./Figures/sc 1 (00_00).jpg  used on input line 75.
-(pdftex.def)             Requested size: 257.08334pt x 153.79846pt.
-<./Figures/sc 1 (00_20).jpg, id=288, 497.4585pt x 276.43275pt>
-File: ./Figures/sc 1 (00_20).jpg Graphic file (type jpg)
-<use ./Figures/sc 1 (00_20).jpg>
-Package pdftex.def Info: ./Figures/sc 1 (00_20).jpg  used on input line 76.
-(pdftex.def)             Requested size: 257.08334pt x 142.86429pt.
-<./Figures/sc 1 (00_40).jpg, id=289, 493.24275pt x 272.81924pt>
-File: ./Figures/sc 1 (00_40).jpg Graphic file (type jpg)
-<use ./Figures/sc 1 (00_40).jpg>
-Package pdftex.def Info: ./Figures/sc 1 (00_40).jpg  used on input line 77.
-(pdftex.def)             Requested size: 257.08334pt x 142.19984pt.
-<./Figures/sc 2 (00_00).jpg, id=290, 494.44725pt x 272.217pt>
+Package pdftex.def Info: ./Figures/sc 1 (00_00).jpg  used on input line 78.
+(pdftex.def)             Requested size: 226.69667pt x 140.8424pt.
+<./Figures/sc 2 (00_00).jpg, id=322, 494.44725pt x 272.217pt>
 File: ./Figures/sc 2 (00_00).jpg Graphic file (type jpg)
 <use ./Figures/sc 2 (00_00).jpg>
-Package pdftex.def Info: ./Figures/sc 2 (00_00).jpg  used on input line 78.
-(pdftex.def)             Requested size: 257.08334pt x 141.53702pt.
-<./Figures/sc 2 (00_20).jpg, id=291, 494.44725pt x 274.02374pt>
+Package pdftex.def Info: ./Figures/sc 2 (00_00).jpg  used on input line 84.
+(pdftex.def)             Requested size: 226.70157pt x 140.8475pt.
+<./Figures/sc 1 (00_20).jpg, id=323, 497.4585pt x 276.43275pt>
+File: ./Figures/sc 1 (00_20).jpg Graphic file (type jpg)
+<use ./Figures/sc 1 (00_20).jpg>
+Package pdftex.def Info: ./Figures/sc 1 (00_20).jpg  used on input line 90.
+(pdftex.def)             Requested size: 226.70071pt x 140.84386pt.
+<./Figures/sc 2 (00_20).jpg, id=324, 494.44725pt x 274.02374pt>
 File: ./Figures/sc 2 (00_20).jpg Graphic file (type jpg)
 <use ./Figures/sc 2 (00_20).jpg>
-Package pdftex.def Info: ./Figures/sc 2 (00_20).jpg  used on input line 79.
-(pdftex.def)             Requested size: 257.08334pt x 142.47644pt.
-<./Figures/sc 2 (00_40).jpg, id=292, 493.24275pt x 269.808pt>
+Package pdftex.def Info: ./Figures/sc 2 (00_20).jpg  used on input line 96.
+(pdftex.def)             Requested size: 226.70157pt x 140.84157pt.
+<./Figures/sc 1 (00_40).jpg, id=325, 493.24275pt x 272.81924pt>
+File: ./Figures/sc 1 (00_40).jpg Graphic file (type jpg)
+<use ./Figures/sc 1 (00_40).jpg>
+Package pdftex.def Info: ./Figures/sc 1 (00_40).jpg  used on input line 102.
+(pdftex.def)             Requested size: 226.69873pt x 140.84274pt.
+<./Figures/sc 2 (00_40).jpg, id=326, 493.24275pt x 269.808pt>
 File: ./Figures/sc 2 (00_40).jpg Graphic file (type jpg)
 <use ./Figures/sc 2 (00_40).jpg>
-Package pdftex.def Info: ./Figures/sc 2 (00_40).jpg  used on input line 80.
-(pdftex.def)             Requested size: 257.08334pt x 140.63033pt.
+Package pdftex.def Info: ./Figures/sc 2 (00_40).jpg  used on input line 108.
+(pdftex.def)             Requested size: 226.69873pt x 140.84439pt.
 
-Overfull \hbox (49.02504pt too wide) in paragraph at lines 75--81
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 76--112
 [][] []
  []
 
 
-Overfull \hbox (49.02504pt too wide) in paragraph at lines 75--81
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 76--112
 [] []
  []
 
 
-Overfull \hbox (49.02504pt too wide) in paragraph at lines 75--81
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 76--112
+[] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: ./Figures/sc 1 (00_00).jpg Graphic file (type jpg)
+<use ./Figures/sc 1 (00_00).jpg>
+Package pdftex.def Info: ./Figures/sc 1 (00_00).jpg  used on input line 118.
+(pdftex.def)             Requested size: 257.08334pt x 153.79846pt.
+File: ./Figures/sc 1 (00_20).jpg Graphic file (type jpg)
+<use ./Figures/sc 1 (00_20).jpg>
+Package pdftex.def Info: ./Figures/sc 1 (00_20).jpg  used on input line 119.
+(pdftex.def)             Requested size: 257.08334pt x 142.86429pt.
+File: ./Figures/sc 1 (00_40).jpg Graphic file (type jpg)
+<use ./Figures/sc 1 (00_40).jpg>
+Package pdftex.def Info: ./Figures/sc 1 (00_40).jpg  used on input line 120.
+(pdftex.def)             Requested size: 257.08334pt x 142.19984pt.
+File: ./Figures/sc 2 (00_00).jpg Graphic file (type jpg)
+<use ./Figures/sc 2 (00_00).jpg>
+Package pdftex.def Info: ./Figures/sc 2 (00_00).jpg  used on input line 121.
+(pdftex.def)             Requested size: 257.08334pt x 141.53702pt.
+File: ./Figures/sc 2 (00_20).jpg Graphic file (type jpg)
+<use ./Figures/sc 2 (00_20).jpg>
+Package pdftex.def Info: ./Figures/sc 2 (00_20).jpg  used on input line 122.
+(pdftex.def)             Requested size: 257.08334pt x 142.47644pt.
+File: ./Figures/sc 2 (00_40).jpg Graphic file (type jpg)
+<use ./Figures/sc 2 (00_40).jpg>
+Package pdftex.def Info: ./Figures/sc 2 (00_40).jpg  used on input line 123.
+(pdftex.def)             Requested size: 257.08334pt x 140.63033pt.
+
+Overfull \hbox (49.02504pt too wide) in paragraph at lines 118--124
+[][] []
+ []
+
+
+Overfull \hbox (49.02504pt too wide) in paragraph at lines 118--124
+[] []
+ []
+
+
+Overfull \hbox (49.02504pt too wide) in paragraph at lines 118--124
 [] [] 
  []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (Chapters/Conclusion.tex [8
+) (Chapters/Conclusion.tex [11
 
-] [9 <./Figures/sc 1 (00_00).jpg> <./Figures/sc 1 (00_20).jpg> <./Figures/sc 1 
-(00_40).jpg> <./Figures/sc 2 (00_00).jpg> <./Figures/sc 2 (00_20).jpg> <./Figur
-es/sc 2 (00_40).jpg>]
+] [12 <./Figures/sc 1 (00_00).jpg> <./Figures/sc 2 (00_00).jpg> <./Figures/sc 1
+ (00_20).jpg> <./Figures/sc 2 (00_20).jpg> <./Figures/sc 1 (00_40).jpg> <./Figu
+res/sc 2 (00_40).jpg>] [13]
 CHAPTER 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--17
@@ -970,7 +1029,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--17
 
  []
 
-[10
+[14
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 29--36
@@ -987,7 +1046,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--36
 
  []
 
-[11]
+[15]
 Underfull \hbox (badness 10000) in paragraph at lines 48--55
 
  []
@@ -1002,11 +1061,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--55
 
  []
 
-[12]) (B.Tech_mini.bbl) (Chapters/appendix.tex [13
+[16]) (B.Tech_mini.bbl) (Chapters/appendix.tex [17
 
 ]
 APPENDIX A.
-<./Figures/33bus_singleline_diagram_tieline_t1.jpg, id=324, 205.9695pt x 61.670
+<./Figures/33bus_singleline_diagram_tieline_t1.jpg, id=362, 205.9695pt x 61.670
 4pt>
 File: ./Figures/33bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 
@@ -1014,7 +1073,7 @@ File: ./Figures/33bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Figures/33bus_singleline_diagram_tieline_t1.jpg  use
 d on input line 7.
 (pdftex.def)             Requested size: 467.42168pt x 139.9531pt.
-[14
+[18
 
  <./Figures/33bus_singleline_diagram_tieline_t1.jpg>]
 ! Misplaced \noalign.
@@ -1083,7 +1142,7 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[15]
+[19]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1097,9 +1156,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[16]
+[20]
 APPENDIX B.
-<./Figures/69bus_singleline_diagram_tieline_t1.jpg, id=340, 2544.50626pt x 972.
+<./Figures/69bus_singleline_diagram_tieline_t1.jpg, id=379, 2544.50626pt x 972.
 63374pt>
 File: ./Figures/69bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 
@@ -1107,7 +1166,7 @@ File: ./Figures/69bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Figures/69bus_singleline_diagram_tieline_t1.jpg  use
 d on input line 128.
 (pdftex.def)             Requested size: 467.42168pt x 178.65808pt.
-[17
+[21
 
  <./Figures/69bus_singleline_diagram_tieline_t1.jpg>]
 ! Misplaced \noalign.
@@ -1135,7 +1194,7 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[18]
+[22]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
@@ -1161,7 +1220,7 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[19] [20]
+[23] [24]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1175,16 +1234,16 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [21] (B.Tech_mini.aux)
+) [25] (B.Tech_mini.aux)
 Package rerunfilecheck Info: File `B.Tech_mini.out' has not changed.
-(rerunfilecheck)             Checksum: AE30938A1028645E718F7880ACD06A77;3977.
+(rerunfilecheck)             Checksum: 9F4C14561A3568880889815822E1947D;4213.
  ) 
 Here is how much of TeX's memory you used:
- 17586 strings out of 475380
- 340962 string characters out of 2778187
- 731015 words of memory out of 3000000
- 38603 multiletter control sequences out of 15000+600000
- 491014 words of font info for 54 fonts, out of 8000000 for 9000
+ 17653 strings out of 475380
+ 342135 string characters out of 2778187
+ 731641 words of memory out of 3000000
+ 38654 multiletter control sequences out of 15000+600000
+ 493736 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,15n,78p,1040b,1011s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Us
@@ -1199,9 +1258,9 @@ ic/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type
 /type1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on B.Tech_mini.pdf (34 pages, 4953388 bytes).
+Output written on B.Tech_mini.pdf (38 pages, 5038813 bytes).
 PDF statistics:
- 427 PDF objects out of 1000 (max. 8388607)
- 94 named destinations out of 1000 (max. 500000)
- 267 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 470 PDF objects out of 1000 (max. 8388607)
+ 106 named destinations out of 1000 (max. 500000)
+ 293 words of extra memory for PDF output out of 10000 (max. 10000000)
 
