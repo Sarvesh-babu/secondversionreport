@@ -1,0 +1,344 @@
+\documentclass[a4paper, 12pt, oneside]{sastra}
+\usepackage{amsmath}
+\usepackage{times}
+\usepackage{t1enc}
+\usepackage[toc,page]{appendix}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{datetime}
+\usepackage[driverfallback=dvipdfm]{hyperref}
+\usepackage{multirow}
+\usepackage[toc,page]{appendix}
+\usepackage{xcolor}
+\usepackage{t1enc}
+\usepackage{ltablex}
+\usepackage{epstopdf}
+\usepackage{graphicx}
+\usepackage{siunitx}
+%\usepackage{ctable}
+\usepackage{booktabs}
+\usepackage{longtable}
+%\usepackage{pdflscape}
+\usepackage{subcaption}
+\usepackage{datetime}
+\usepackage[hypertex]{hyperref} 
+\begin{document}
+	\thispagestyle{empty}
+	\begin{center}
+		\Large{\textbf{Coordinated system for charging and discharging for different and various electric vehicles for energy management}}
+	\end{center}
+	\bigskip{}
+	\bigskip{}
+	\bigskip{}
+	\begin{center}
+		\textit{Report submitted to the SASTRA Deemed to be University\\ 
+			as the requirement for the course\\
+		}
+		\bigskip{}
+		\bigskip{}
+		\large{\textbf{EEE300: MINI PROJECT}}
+		\bigskip{}
+		\bigskip{}
+		\bigskip{}
+		\bigskip{}
+		\bigskip{}
+		\bigskip{}
+	\end{center}
+	\begin{center}
+		\textit{Submitted by}\\
+	\end{center}
+	\begin{center}
+		\begin{singlespacing}
+			\textbf{\Large{Mithra Vinda Reddy K}}
+			
+			\textbf{\large{(Reg. No.: 123005085)}}
+			
+			\textbf{\Large{Sarvesh Babu R G}}
+			
+			\textbf{\large{(Reg. No.: 123005132)}}
+			
+						\textbf{\Large{Shwetha S}}
+			
+			\textbf{\large{(Reg. No.: 123005140)}}
+		\end{singlespacing}
+	\end{center}
+	\bigskip{}
+	
+	\begin{center}
+		\Large{\textbf{December 2022}}   %%%%%%%%%% if needed use capital 'L' or small 'l' for large
+	\end{center}
+	\bigskip{}
+	\begin{center}
+		\includegraphics[height=1.52in, width=5.65in]{SASTRA_Combined_Logo}
+	\end{center}
+	
+	%\noalign{\smallskip}
+	\begin{center}
+		\large{\textbf{SCHOOL OF ELECTRICAL AND ELECTROINCS ENGINEERING}} %%%% contents in this line has to be 16
+		{\textbf{THANJAVUR,TAMIL NADU, INDIA-613 401}}
+	\end{center}
+\newpage
+	
+	\pagenumbering{roman}
+	\setcounter{page}{2}
+	
+	\certificate
+
+	\begin{doublespace}
+		\linespread{2}
+		
+		This is to certify that the report titled ``\textbf{Coordinated system for charging and discharging for different and various electric vehicles for energy management}'' submitted as a requirement for the course, {\textbf{EEE300: MINI PROJECT} for B. Tech. Electrical \& Electronics Engineering programme, is a bonafide record of the work done by \textbf{Ms. Mithra Vinda Reddy K (Reg.No.123005085),~~Mr. Sarvesh Babu R G (Reg.No.123005132),~~Ms. Shwetha S (Reg.No.123005140)} during the academic year 2022-23, in the \textbf{School of Electrical and Electronics Engineering}, under my supervision.
+			
+	\end{doublespace}
+	\vspace*{0.4in}
+	
+\noindent\textbf{Signature of Project Supervisor:}~	\\ %%%%%Remove this name while submission
+\\
+\textbf{Name with Affliation\hspace*{19mm}:~\textbf{Dr.~Narayanan K}~(SAP~/~EEE~/~SEEE)}	\\
+\\
+	\textbf{Date\hspace*{48.25mm}:}~06~/~12~/~2022\\%%%%%%% Add date after paranthesis while printing
+	
+	\vspace*{0.35in}
+	
+	\noindent Project \textit{Vivavoce} held on
+	
+	\vspace*{0.50in}
+	\noindent \textbf{Examiner-I} \hspace*{120mm} \textbf{Examiner-II}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\declaration
+	
+	%\vspace*{0.5in}
+		
+		\begin{doublespace}
+		\linespread{2}
+		
+		We declare that the report titled ``\textbf{Coordinated system for charging and discharging for different and various electric vehicles for energy management}'' submitted by me/us is an original work done by us under the guidance of \textbf{Dr. Narayanan K,~~SAP,~~School of Electrical and Electronics Engineering,~~SASTRA Deemed to be University} during the academic year 2022-23, in the \textbf{School of Electrical and Electronics Engineering}. The work is original and wherever We have used materials from other sources, I/We have given due credit and cited them in the text of the report. This report has not formed the basis for the award of any degree, diploma, associate-ship, fellowship or other similar title to any candidate of any University.\\
+		
+	\end{doublespace}
+	%\end{singlespacing}
+	\noindent \textbf{Signature of the candidate(s)	:}	
+	\\
+	\\
+	\\
+	\\
+	\\
+	\noindent\textbf{Name of the candidate(s)\hspace{7mm}		: Mithra Vinda Reddy K}\\
+	\hspace*{53mm}\textbf{: Sarvesh Babu R G}\\
+	\hspace*{53mm}\textbf{: Shwetha S}\\
+	\noindent\textbf{Date\hspace*{43.5mm}					:}~09~/~12~/~2022\\%%%%%%% Add date after paranthesis while printing
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% Acknowledgements
+	\acknowledgements
+	
+	\hspace*{12pt} We express our gratitude to honourable \textbf{Dr.~S.~Vaidhyasubramaniam}, Vice Chancellor SASTRA University forcm the opportunity of pursuing our engineering in this esteemed in institution and carry out the project work.
+	
+	\par We thank \textbf{Dr.~R.~Chandramouli}, Registrar, SASTRA University for granting permission and extending the facilities in carrying out this project.
+	
+	\par We express our sincere thanks and gratitude to \textbf{Dr.~K.~Thenmozhi}, Dean, SEEE and \textbf{Dr.~K.~Vijayarekha}, Associate Dean, EEED/SEEE SASTRA Deemed to be University, for her support in the supporting the accomplishment of this work.
+	
+	\par We also render our sincere thanks to project coordinators, \textbf{Dr.~Karthikaikannan D}, SAP/EEE/SEEE and \textbf{Dr.~Venkatesh T}, AP-III/EEE/SEEE, SASTRA Deemed to be University for their involvement and encouragement during this project.
+	
+	\par We would like to thank our guide, \textbf{Dr.~Narayanan K}, SAP/EEE/SEEE, SASTRA Deemed to be University, for his guidance and support, that cumulated to his successful project. His emphasis on making learning an experience allowed us to learn while making mistakes and rectifying them to learn ,not only the scientific concepts behind power systems but also the process of analysing results.
+	
+	\par We would like to thank our friends who supported us. We would also like to thank the lab assistants for helping us with their practical expertise and for providing the necessary software tools.
+	
+	\par And finally, we would like to acknowledge the appreciation and support that our parents provided to ensure we faced minimal obstacles throughout the project.
+	\pagebreak
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\abstract
+	
+	%\noindent KEYWORDS: \hspace*{0.5em} \parbox[t]{4.4in}{\LaTeX ; Thesis; Style files; Format.}
+	
+	\vspace*{24pt}
+	
+	\noindent This work proposes a method for charging and discharging the batteries in Electric Vehicles (EV). The classification of Electric vehicles is Private Vehicle, Commercial Vehicle, Emergency Vehicle, VIP Vehicle based on the battery capacity and vehicle's usage.
+	
+	The State of Charge (SoC) of each vehicle is calculated for every twenty minutes and compared with the threshold limits of SoC. The Distance traveled and the time for which it is connected to the grid is fixed for each vehicle type. The ideal pattern has been established by comparing the charging pattern with the scheduled Real Time Pricing (RTP) for every 20-minute block. Here 20-minute blocks are considered because the time required for full charge varies from vehicle to vehicle. The pattern has been formulated in such a way that discharging occurs when the cost is higher (peak hours), charging occurs when the cost is low (off peak hours). Few blocks are left idle when charging or discharging is not feasible because of violation of threshold limits. The total price has been calculated for each vehicle for a span of 24 hours after the charging and discharging patterns are established.
+	
+	The novelty of this work is the establishment of a travel pattern for the classified types of vehicles and thereby arriving at the best charging/discharging patterns.
+	
+	
+	\noindent \textbf{Specific Contribution}
+	\begin{itemize}
+		\item Establishing the travel pattern for the classified vehicles by using the vehicle's battery capacity and how much time it takes to complete its trip.
+		
+	\end{itemize}
+	\noindent \textbf{Specific Learning}
+	\begin{itemize}
+		\item Understood about various ranges of battery capacities of the vehicles and time to complete its trip after one time charging.
+	\end{itemize}
+	
+	\vspace*{24pt}
+	
+	\noindent \textbf{Signature of the Guide} \hspace*{66mm} \textbf{Student Reg. No:}123005085\\
+		\\
+	\\
+	\\
+	\noindent \textbf{Name of the Guide}:{ Dr.~Narayanan K}~(SAP/EEE/SEEE) \hspace*{7mm} \textbf{Name:}{Mithra Vinda Reddy K}
+	\pagebreak
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% for the second member
+	\begin{center}
+		\Large{{\textbf{ABSTRACT}}}
+	\end{center}
+	
+	%\noindent KEYWORDS: \hspace*{0.5em} \parbox[t]{4.4in}{\LaTeX ; Thesis;Style files; Format.}
+	
+	\vspace*{24pt}
+	
+	\noindent This work proposes a method for charging and discharging the batteries in Electric Vehicles (EV). The classification of Electric vehicles is Private Vehicle, Commercial Vehicle, Emergency Vehicle, VIP Vehicle based on the battery capacity and vehicle's usage.
+	
+	 The State of Charge (SoC) of each vehicle is calculated for every twenty minutes and compared with the threshold limits of SoC. The Distance traveled and the time for which it is connected to the grid is fixed for each vehicle type. The ideal pattern has been established by comparing the charging pattern with the scheduled Real Time Pricing (RTP) for every 20-minute block. Here 20-minute blocks are considered because the time required for full charge varies from vehicle to vehicle. The pattern has been formulated in such a way that discharging occurs when the cost is higher (peak hours), charging occurs when the cost is low (off peak hours). Few blocks are left idle when charging or discharging is not feasible because of violation of threshold limits. The total price has been calculated for each vehicle for a span of 24 hours after the charging and discharging patterns are established.
+	
+	The novelty of this work is the establishment of a travel pattern for the classified types of vehicles and thereby arriving at the best charging/discharging patterns.
+	
+	
+	\noindent \textbf{Specific Contribution}
+	\begin{itemize}
+		\item Charging/Discharging Pattern formulation for the classified Electric Vehicles by comparing it with the Real time pricing.
+	\end{itemize}
+	\noindent \textbf{Specific Learning}
+	\begin{itemize}
+		\item Understood about various types of Electric Vehicles, time required for them to charge and discharge.
+		\item Understood about Real Time Pricing (RTP) and its benefits when incorporated with charging schemes.
+	\end{itemize}
+	
+	\vspace*{24pt}
+	
+	\noindent \textbf{Signature of the Guide} \hspace*{66mm} \textbf{Student Reg. No:}123005132\\
+		\\
+	\\
+	\\
+\noindent \textbf{Name of the Guide}:{ Dr.~Narayanan K}~(SAP/EEE/SEEE) \hspace*{10mm} \textbf{Name:}{Sarvesh Babu R G}
+\pagebreak
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	% for the third member
+	
+	\begin{center}
+		\Large{{\textbf{ABSTRACT}}}
+	\end{center}
+	
+	%\noindent KEYWORDS: \hspace*{0.5em} \parbox[t]{4.4in}{\LaTeX ; Thesis;Style files; Format.}
+	
+	\vspace*{24pt}
+	
+	\noindent This work proposes a method for charging and discharging the batteries in Electric Vehicles (EV). The classification of Electric vehicles is Private Vehicle, Commercial Vehicle, Emergency Vehicle, VIP Vehicle based on the battery capacity and vehicle's usage.
+	
+	The State of Charge (SoC) of each vehicle is calculated for every twenty minutes and compared with the threshold limits of SoC. The Distance traveled and the time for which it is connected to the grid is fixed for each vehicle type. The ideal pattern has been established by comparing the charging pattern with the scheduled Real Time Pricing (RTP) for every 20-minute block. Here 20-minute blocks are considered because the time required for full charge varies from vehicle to vehicle. The pattern has been formulated in such a way that discharging occurs when the cost is higher (peak hours), charging occurs when the cost is low (off peak hours). Few blocks are left idle when charging or discharging is not feasible because of violation of threshold limits. The total price has been calculated for each vehicle for a span of 24 hours after the charging and discharging patterns are established.
+	
+	The novelty of this work is the establishment of a travel pattern for the classified types of vehicles and thereby arriving at the best charging/discharging patterns.
+	
+	\noindent \textbf{Specific Contribution}
+	\begin{itemize}
+		\item The vehicles have been classified into different categories based on the usage and the battery capacity. The classifications are Private Vehicle, Commercial Vehicle, Emergency Vehicle, VIP Vehicle.
+
+	\end{itemize}
+	\noindent \textbf{Specific Learning}
+	\begin{itemize}
+		\item Understood about Electric Vehicles and its parameters like Charging, Discharging and State of charge.
+		\item Understood that Electric vehicles have different battery capacity and time required for full charge depends on the type of vehicle.
+	\end{itemize}
+	
+	\vspace*{24pt}
+	
+	\noindent \textbf{Signature of the Guide} \hspace*{66mm} \textbf{Student Reg. No:}121005206\\
+		\\
+	\\
+	\\
+\noindent \textbf{Name of the Guide}:{ Dr.~Narayanan K}~(SAP/EEE/SEEE) \hspace*{15 mm} \textbf{Name:} Shwetha S
+\pagebreak
+	
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\begin{singlespace}
+		\tableofcontents
+		\thispagestyle{empty}
+		
+		
+		\listoffigures
+		\addcontentsline{toc}{chapter}{LIST OF FIGURES}
+		\listoftables
+		\addcontentsline{toc}{chapter}{LIST OF TABLES}
+	\end{singlespace}
+	
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	\abbreviations
+	
+	\noindent 
+	\begin{tabbing}
+		xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
+		\textbf{EV}   \> Electric Vehicle \\
+		\textbf{RTP} \> Real Time Price \\
+	\end{tabbing}
+	
+	\pagebreak
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	\chapter*{\centerline{NOTATIONS}}
+	\addcontentsline{toc}{chapter}{NOTATIONS}
+	
+	\begin{singlespace}
+		\begin{tabbing}
+			xxxxxxxxxxx \= xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx \kill
+			\textbf{$SoC_{(y)}$}  \> State of Charge in present hour  \\
+			\textbf{$SoC_{(y-1)}$}  \> State of Charge in previous hour \\
+			\textbf{$\eta c$}   \> Charging Efficiency \\
+			\textbf{$\eta d$}   \> Discharging Efficiency \\
+			\textbf{$\partial y$}   \> Time Interval \\
+			\textbf{$SoC_{Threshold}$}   \> Threshold limit for State of Charge \\
+			\textbf{$Ch_{t} $}   \> Energy delivered at time `t' \\
+			\textbf{$RTP$}   \> Real Time Price Array \\
+			\textbf{$T_{n}$}   \> Cost of ‘$n^{th}$’ iteration \\
+		\end{tabbing}
+	\end{singlespace}
+	
+	\pagebreak
+	\clearpage
+	
+	% The main text will follow from this point so set the page numbering
+	% to arabic from here on.
+	
+	\pagenumbering{arabic}
+	
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	%%% More chapters can be added if necessary
+	\input{./Chapters/Introduction}
+	
+	\input{./Chapters/Objectives}
+	
+	\input{./Chapters/Experimental}
+	
+	\input{./Chapters/Mathematical Modelling}
+	
+	\input{./Chapters/Results}
+	
+	\input{./Chapters/Conclusion}
+	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Bibliography.
+\addcontentsline{toc}{chapter}{REFERENCES}
+%\bibliographystyle{plain}
+%\bibliography{mybib}
+\begin{singlespace}
+\bibliography{refs}
+\end{singlespace}
+
+% Appendices.
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./Chapters/appendix}
+\appendix
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%\plagarism
+\end{document}

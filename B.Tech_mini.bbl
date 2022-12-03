@@ -1,0 +1,24 @@
+\begin{thebibliography}{}
+
+\bibitem[\protect\citeauthoryear{Lee, Li, and Low}{Lee et~al.}{2019}]{evdata}
+Lee, Z.~J., T.~Li, and S.~H. Low (2019, June).
+\newblock {ACN}-{Data}: {Analysis} and {Applications} of an {Open} {EV}
+  {Charging} {Dataset}.
+\newblock In {\em Proceedings of the Tenth International Conference on Future
+  Energy Systems}, e-Energy '19.
+
+\bibitem[\protect\citeauthoryear{Rao, Ravindra, Satish, and Narasimham}{Rao
+  et~al.}{2012}]{rao}
+Rao, R.~S., K.~Ravindra, K.~Satish, and S.~Narasimham (2012).
+\newblock Power loss minimization in distribution system using network
+  reconfiguration in the presence of distributed generation.
+\newblock {\em IEEE transactions on power systems\/}~{\em 28\/}(1), 317--325.
+
+\bibitem[\protect\citeauthoryear{Savier and Das}{Savier and Das}{2007}]{69bus}
+Savier, J. and D.~Das (2007).
+\newblock Impact of network reconfiguration on loss allocation of radial
+  distribution systems.
+\newblock {\em IEEE Transactions on Power Delivery\/}~{\em 22\/}(4),
+  2473--2480.
+
+\end{thebibliography}

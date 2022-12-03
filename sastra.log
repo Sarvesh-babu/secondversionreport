@@ -1,0 +1,249 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.12) (preloaded format=pdflatex 2021.1.5)  27 JAN 2021 12:45
+entering extended mode
+**./sastra.cls
+(sastra.cls
+LaTeX2e <2020-10-01> patch level 3
+L3 programming layer <2020-12-07> xparse <2020-03-03>
+
+LaTeX Warning: You have requested package `',
+               but the package provides `iitmdiss'.
+
+Package: iitmdiss 2005/03/09 Class for IIT-Madras Dissertations
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.51 \newif\if@
+               PhD
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no @ in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no D in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no M in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no B in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 51--56
+[]
+ []
+
+("C:\Program Files\MiKTeX\tex/latex/base\report.cls"
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\size12.clo"
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+
+! Font OT1/cmr/m/n/12= not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   OT1/cmr/m/n/12 
+l.112     \ifdim\@tempdima>
+                           2\@tempdimb\relax
+I wasn't able to read the size data for this font,
+so I will ignore the font specification.
+[Wizards can fix TFM files using TFtoPL/PLtoTF.]
+You might try inserting a different font spec;
+e.g., type `I\font<same font id>=<substitute font name>'.
+
+! Extra \else.
+l.117   \else
+             
+I'm ignoring this; it doesn't match any \if.
+
+)
+\c@part=\count177
+\c@chapter=\count178
+\c@section=\count179
+\c@subsection=\count180
+\c@subsubsection=\count181
+\c@paragraph=\count182
+\c@subparagraph=\count183
+\c@figure=\count184
+\c@table=\count185
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+Missing character: There is no 1 in font nullfont!
+ [1]) ("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks15
+)
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count186
+\Gm@cntv=\count187
+\c@Gm@tempcnt=\count188
+\Gm@bindingoffset=\dimen139
+\Gm@wd@mp=\dimen140
+\Gm@odd@mp=\dimen141
+\Gm@even@mp=\dimen142
+\Gm@layoutwidth=\dimen143
+\Gm@layoutheight=\dimen144
+\Gm@layouthoffset=\dimen145
+\Gm@layoutvoffset=\dimen146
+\Gm@dimlist=\toks16
+
+("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg"))
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.77 \renewcommand{\@pnumwidth}
+                               {2.5em}
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no n in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no w in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no h in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no m in font nullfont!
+(setspace.sty
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) (atbeginend.sty) ("C:\Program Files\MiKTeX\tex/latex/caption\caption.sty"
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+
+("C:\Program Files\MiKTeX\tex/latex/caption\caption3.sty"
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+\captionmargin=\dimen147
+\captionmargin@=\dimen148
+\captionwidth=\dimen149
+\caption@tempdima=\dimen150
+\caption@indent=\dimen151
+\caption@parindent=\dimen152
+\caption@hangindent=\dimen153
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count189
+\c@continuedfloat=\count190
+)
+("C:\Program Files\MiKTeX\tex/latex/natbib\natbib.sty"
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip49
+\bibsep=\skip50
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count191
+)
+
+! LaTeX Error: Command \bibstyle already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109      \gdef\NAT@biblabel##1{##1. }}
+                                        
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.109      \gdef\NAT@biblabel##1{##1. }}
+                                        
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+Missing character: There is no i in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no m in font nullfont!
+! Missing number, treated as zero.
+<to be read again> 
+                   i
+l.109      \gdef\NAT@biblabel##1{##1. }}
+                                        
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! You already have nine parameters.
+\reserved@a ...pandafter \bibstyle \reserved@b #10
+                                                  i{
+l.109      \gdef\NAT@biblabel##1{##1. }}
+                                        
+I'm going to ignore the # sign you just used.
+
+! Parameters must be numbered consecutively.
+<to be read again> 
+                   ##
+l.109      \gdef\NAT@biblabel##1{##1. }}
+                                        
+I've inserted the digit you should have used after the #.
+Type `1' to delete what you did use.
+
+! Parameters must be numbered consecutively.
+<to be read again> 
+                   1
+l.109      \gdef\NAT@biblabel##1{##1. }}
+                                        
+I've inserted the digit you should have used after the #.
+Type `1' to delete what you did use.
+
+)
+! Emergency stop.
+<*> ./sastra.cls
+                
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 2416 strings out of 479624
+ 39208 string characters out of 2875021
+ 319870 words of memory out of 3000000
+ 19640 multiletter control sequences out of 15000+200000
+ 403430 words of font info for 27 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 66i,4n,70p,222b,108s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
