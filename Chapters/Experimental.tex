@@ -36,35 +36,34 @@
 
 
 
-	\section{Charging/Discharging pattern Establishment}
+	\section{Charging/Discharging Pattern Establishment}
 	
-	A 24 hour time scale is taken for charging/discharging pattern formulation. This time scale is further subdivided into 72 time blocks  because the classified vehicles have different battery
-	capacity range. This split up is done to find the best efficient charging/discharging pattern in
-	order to reduce the cost that is paid to the grid for the beneficial of consumers.
+	A 24 hour time scale is taken for charging/discharging pattern formulation. This time scale is further subdivided into 72 time blocks as the classified vehicles have non-uniform charging time, thereby rounding of time into hourly basis would be inefficient and unprecise. So inorder to increase precision, the 24 hour scale is split into 72 Blocks.
+	
+	\noindent Inorder to find the best charging/discharging/idle pattern equation \eqref{bestpattern} is used and this pattern provides less loss to the grid and is useful to the vehicle owner interms of cost.
+	
+	\noindent After running through all successive time logs of vehicles the whole data is analysed with this equation \eqref{argmin} and the connection time which is most profitable for both user and grid is identified.
+	
 	
 	\section{Flowchart}
 	
-	1. With the help of the device data calculate the time period T for which the vehicle is
-	connected to the grid.
+	\begin{enumerate}
+		
+		\item Data necessary for the EV charging is collected from the device and the time period for which it will be connected to the grid from the user.
+		
+		\item $SoC_{residual,t}$ is calculated from checking the vehicle's battery.
+		
+		\item This $SoC_{residual,t}$ is then compared with the $SoC_{threshold,t}$ to determine either to charge or discharge.
+		
 	
-	\noindent 2. Calculate SoC threshold,t for every vehicle.
-	
-	\noindent 3. The SoC residual,t and SoC consumed,t are determined for the time block t
-	\noindent 4. The SoC residual,t is compared with SoC threshold,t
-	\begin{itemize}
+		\begin{enumerate}
 
-
-	 \item If the condition is true then the time must be equal peak demand. If it is equal then
-	the vehicle stays idle. If the time is not equal to peak demand then it is then
-	checked with the real price algorithm and if it satisfies the algorithm ten the
-	vehicle goes to charging, if not the vehicle stays idle.
-	
-	\item If the condition is not true then time is checked with the peak demand and the
-	vehicle is given a priority of either 1 or 0. 1 means the vehicle has to charge and if
-	0 then the vehicle discharges when the time is equal to peak demand. When t and
-	peak demand are not equal the vehicle stays idle.
-	
-		\end{itemize}
+			 \item 
+			
+			 \item
+		
+		\end{enumerate}
+	\end{enumerate}
 	
 	\begin{figure}
 		\centering
@@ -82,5 +81,15 @@
 			\caption{}
 			\label{fig:rtp}
 		\end{figure}
+	\section{Load Profile}
+		\begin{figure}
+			\centering
+			\includegraphics[width=0.7\linewidth]{C:/Users/HP/Downloads/load_demand}
+			\caption{}
+			\label{fig:loaddemand}
+		\end{figure}
+		
+	
+		
 	
 	

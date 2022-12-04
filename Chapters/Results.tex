@@ -21,22 +21,24 @@
 			& \textbf{Case 3 - (00:40)} & - \$2.11            & 04:40         \\ \hline
 		\end{tabular}
 	\end{table}
-	
-	\begin{table}[h]
-		\centering
-	\caption{Power Loss when Ev connected in different busses in 33 bus system for two load profile scenarios}	
-		\begin{tabular}{|cl|ll|ll|ll|}
-			\hline
-			\multicolumn{2}{|c|}{\multirow{2}{*}{\textbf{SCENARIO}}} & \multicolumn{2}{c|}{\textbf{Case 1 }}                                                                                                                                                                                   & \multicolumn{2}{c|}{\textbf{Case 2 }}                                                                                                                                                                                   & \multicolumn{2}{c|}{\textbf{Case 3 }}                                                                                                                                                                                   \\ \cline{3-8} 
-			\multicolumn{2}{|c|}{}                                   & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 2 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 18 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 2 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 18 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 2 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 18 (W)\end{tabular}}} \\ \hline
-			\multicolumn{2}{|c|}{\textbf{SCENARIO-1}}                & \multicolumn{1}{l|}{204.1038}                                                                                  & 253.746                                                                                                         & \multicolumn{1}{l|}{65.7725}                                                                                   & 78.4603                                                                                                         & \multicolumn{1}{l|}{204.1038}                                                                                  & 253.746                                                                                                         \\ \hline
-			\multicolumn{2}{|c|}{\textbf{SCENARIO-2}}                & \multicolumn{1}{l|}{189.8325}                                                                                  & 236.9117                                                                                                        & \multicolumn{1}{l|}{178.9671}                                                                                  & 222.4681                                                                                                        & \multicolumn{1}{l|}{189.8325}                                                                                  & 236.9117                                                                                                        \\ \hline
-		\end{tabular}
-			\label{table:powerloss}
-	\end{table}
 
 
-	
+
+\begin{table}[]
+	\centering
+	\caption{Power Loss when Ev connected in different busses in 33 bus system for two load profile scenarios}
+	\begin{tabular}{|c|c|cc|cc|cc|}
+		\hline
+		\multirow{2}{*}{\textbf{Scenario}}                            & \multirow{2}{*}{\textbf{\begin{tabular}[c]{@{}c@{}}Base\\ Case\\ Power\\ Loss\end{tabular}}} & \multicolumn{2}{c|}{\textbf{Case 1}}                                                                                                                                                                          & \multicolumn{2}{c|}{\textbf{Case 2}}                                                                                                                                                                          & \multicolumn{2}{c|}{\textbf{Case 3}}                                                                                                                                                                          \\ \cline{3-8} 
+		&                                                                                              & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power \\ Loss\\ when EV\\ in Bus 2\\ (kW)\end{tabular}}} & \textbf{\begin{tabular}[c]{@{}c@{}}Power \\ Loss\\ when EV\\ in Bus 18\\ (kW)\end{tabular}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power \\ Loss\\ when EV\\ in Bus 2\\ (kW)\end{tabular}}} & \textbf{\begin{tabular}[c]{@{}c@{}}Power \\ Loss\\ when EV\\ in Bus 18\\ (kW)\end{tabular}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power\\  Loss\\ when EV\\ in Bus 2\\ (kW)\end{tabular}}} & \textbf{\begin{tabular}[c]{@{}c@{}}Power \\ Loss\\ when EV\\ in Bus 18\\ (kW)\end{tabular}} \\ \hline
+		\textbf{\begin{tabular}[c]{@{}c@{}}Scenario\\ 1\end{tabular}} & \multirow{2}{*}{202.691}                                                                     & \multicolumn{1}{c|}{204.104}                                                                                    & 253.746                                                                                     & \multicolumn{1}{c|}{65.773}                                                                                     & 78.460                                                                                      & \multicolumn{1}{c|}{204.104}                                                                                    & 253.746                                                                                     \\ \cline{1-1} \cline{3-8} 
+		\textbf{\begin{tabular}[c]{@{}c@{}}Scenario\\ 2\end{tabular}} &                                                                                              & \multicolumn{1}{c|}{189.833}                                                                                    & 236.912                                                                                     & \multicolumn{1}{c|}{178.967}                                                                                    & 222.468                                                                                     & \multicolumn{1}{c|}{189.833}                                                                                    & 236.912                                                                                     \\ \hline
+	\end{tabular}
+				\label{table:powerloss}
+\end{table}
+
+
+
 
 	\begin{table}[h]
 		\centering
@@ -48,6 +50,12 @@
 			\multicolumn{2}{|l|}{\textbf{SCENARIO-2}}        & \multicolumn{2}{l|}{$ 19^{th} $}           & \multicolumn{2}{l|}{$ 6^{th} $}             & \multicolumn{2}{l|}{$ 19^{th} $}             \\ \hline
 		\end{tabular}
 	\end{table}
+		
+		
+		
+		
+		
+		
 		
 	\section{Charging Patterns}
 			\begin{figure}
@@ -120,6 +128,7 @@
 	\end{figure} 
 	
 	
+
 
 		
 	
