@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.18)  4 DEC 2022 23:11
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.18)  5 DEC 2022 00:06
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -848,7 +848,7 @@ CHAPTER 2.
 
 ] [4]) (Chapters/Experimental.tex [5]
 CHAPTER 3.
-<./Figures/classification.png, id=275, 499.8675pt x 216.81pt>
+<./Figures/classification.png, id=281, 499.8675pt x 216.81pt>
 File: ./Figures/classification.png Graphic file (type png)
 <use ./Figures/classification.png>
 Package pdftex.def Info: ./Figures/classification.png  used on input line 10.
@@ -856,15 +856,15 @@ Package pdftex.def Info: ./Figures/classification.png  used on input line 10.
 [6
 
  <./Figures/classification.png>]
-<Figures/Ev_flowchart.jpg, id=290, 875.27pt x 869.2475pt>
+<Figures/Ev_flowchart.jpg, id=296, 875.27pt x 869.2475pt>
 File: Figures/Ev_flowchart.jpg Graphic file (type jpg)
 <use Figures/Ev_flowchart.jpg>
-Package pdftex.def Info: Figures/Ev_flowchart.jpg  used on input line 84.
+Package pdftex.def Info: Figures/Ev_flowchart.jpg  used on input line 71.
 (pdftex.def)             Requested size: 420.67665pt x 417.77786pt.
-<Figures/rtp.png, id=291, 546.24075pt x 147.55125pt>
+<Figures/rtp.png, id=297, 546.24075pt x 147.55125pt>
 File: Figures/rtp.png Graphic file (type png)
 <use Figures/rtp.png>
-Package pdftex.def Info: Figures/rtp.png  used on input line 94.
+Package pdftex.def Info: Figures/rtp.png  used on input line 81.
 (pdftex.def)             Requested size: 327.19374pt x 88.38507pt.
 
 
@@ -892,66 +892,66 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<C:/Users/HP/Downloads/cp_case1.jpg, id=324, 549.252pt x 277.63725pt>
+<C:/Users/HP/Downloads/cp_case1.jpg, id=331, 549.252pt x 277.63725pt>
 File: C:/Users/HP/Downloads/cp_case1.jpg Graphic file (type jpg)
 <use C:/Users/HP/Downloads/cp_case1.jpg>
 Package pdftex.def Info: C:/Users/HP/Downloads/cp_case1.jpg  used on input line
  55.
 (pdftex.def)             Requested size: 327.19374pt x 165.38896pt.
-<C:/Users/HP/Downloads/cp_case2.jpg, id=325, 522.15076pt x 281.853pt>
+<C:/Users/HP/Downloads/cp_case2.jpg, id=332, 522.15076pt x 281.853pt>
 File: C:/Users/HP/Downloads/cp_case2.jpg Graphic file (type jpg)
 <use C:/Users/HP/Downloads/cp_case2.jpg>
 Package pdftex.def Info: C:/Users/HP/Downloads/cp_case2.jpg  used on input line
  61.
 (pdftex.def)             Requested size: 327.19374pt x 176.62216pt.
-<C:/Users/HP/Downloads/cp_case3.jpg, id=326, 533.5935pt x 284.262pt>
+<C:/Users/HP/Downloads/cp_case3.jpg, id=333, 533.5935pt x 284.262pt>
 File: C:/Users/HP/Downloads/cp_case3.jpg Graphic file (type jpg)
 <use C:/Users/HP/Downloads/cp_case3.jpg>
 Package pdftex.def Info: C:/Users/HP/Downloads/cp_case3.jpg  used on input line
- 67.
+ 68.
 (pdftex.def)             Requested size: 327.19374pt x 174.31476pt.
-<./Figures/sc1_case1.jpg, id=327, 495.0495pt x 283.65974pt>
+<./Figures/sc1_case1.jpg, id=334, 495.0495pt x 283.65974pt>
 File: ./Figures/sc1_case1.jpg Graphic file (type jpg)
 <use ./Figures/sc1_case1.jpg>
-Package pdftex.def Info: ./Figures/sc1_case1.jpg  used on input line 83.
+Package pdftex.def Info: ./Figures/sc1_case1.jpg  used on input line 84.
 (pdftex.def)             Requested size: 226.6982pt x 140.83833pt.
-<./Figures/sc2_case1.jpg, id=328, 490.83376pt x 277.63725pt>
+<./Figures/sc2_case1.jpg, id=335, 490.83376pt x 277.63725pt>
 File: ./Figures/sc2_case1.jpg Graphic file (type jpg)
 <use ./Figures/sc2_case1.jpg>
-Package pdftex.def Info: ./Figures/sc2_case1.jpg  used on input line 89.
+Package pdftex.def Info: ./Figures/sc2_case1.jpg  used on input line 90.
 (pdftex.def)             Requested size: 226.69998pt x 140.84328pt.
-<./Figures/sc1_case2.jpg, id=329, 491.436pt x 286.671pt>
+<./Figures/sc1_case2.jpg, id=336, 491.436pt x 286.671pt>
 File: ./Figures/sc1_case2.jpg Graphic file (type jpg)
 <use ./Figures/sc1_case2.jpg>
-Package pdftex.def Info: ./Figures/sc1_case2.jpg  used on input line 95.
+Package pdftex.def Info: ./Figures/sc1_case2.jpg  used on input line 96.
 (pdftex.def)             Requested size: 226.70068pt x 140.84619pt.
-<./Figures/sc2_case2.jpg, id=330, 495.65175pt x 277.63725pt>
+<./Figures/sc2_case2.jpg, id=337, 495.65175pt x 277.63725pt>
 File: ./Figures/sc2_case2.jpg Graphic file (type jpg)
 <use ./Figures/sc2_case2.jpg>
-Package pdftex.def Info: ./Figures/sc2_case2.jpg  used on input line 101.
+Package pdftex.def Info: ./Figures/sc2_case2.jpg  used on input line 102.
 (pdftex.def)             Requested size: 226.70172pt x 140.84328pt.
-<./Figures/sc1_case3.jpg, id=331, 493.845pt x 281.853pt>
+<./Figures/sc1_case3.jpg, id=338, 493.845pt x 281.853pt>
 File: ./Figures/sc1_case3.jpg Graphic file (type jpg)
 <use ./Figures/sc1_case3.jpg>
-Package pdftex.def Info: ./Figures/sc1_case3.jpg  used on input line 107.
+Package pdftex.def Info: ./Figures/sc1_case3.jpg  used on input line 108.
 (pdftex.def)             Requested size: 226.69672pt x 140.84444pt.
-<./Figures/sc2_case3.jpg, id=332, 483.0045pt x 287.8755pt>
+<./Figures/sc2_case3.jpg, id=339, 483.0045pt x 287.8755pt>
 File: ./Figures/sc2_case3.jpg Graphic file (type jpg)
 <use ./Figures/sc2_case3.jpg>
-Package pdftex.def Info: ./Figures/sc2_case3.jpg  used on input line 113.
+Package pdftex.def Info: ./Figures/sc2_case3.jpg  used on input line 114.
 (pdftex.def)             Requested size: 226.69522pt x 140.84499pt.
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 81--117
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 82--118
 [][] []
  []
 
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 81--117
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 82--118
 [] []
  []
 
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 81--117
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 82--118
 [] [] 
  []
 
@@ -1017,7 +1017,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--55
 
 ]
 APPENDIX A.
-<./Figures/33bus_singleline_diagram_tieline_t1.jpg, id=372, 205.9695pt x 61.670
+<./Figures/33bus_singleline_diagram_tieline_t1.jpg, id=378, 205.9695pt x 61.670
 4pt>
 File: ./Figures/33bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 
@@ -1110,7 +1110,7 @@ or  <return>  to continue without it.
 
 [22]
 APPENDIX B.
-<./Figures/69bus_singleline_diagram_tieline_t1.jpg, id=389, 2544.50626pt x 972.
+<./Figures/69bus_singleline_diagram_tieline_t1.jpg, id=394, 2544.50626pt x 972.
 63374pt>
 File: ./Figures/69bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 
@@ -1187,16 +1187,13 @@ Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 ) [27] (B.Tech_mini.aux)
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `B.Tech_mini.out' has not changed.
 (rerunfilecheck)             Checksum: 13443C6676BD472C5EDEBEE6CC36FA38;3972.
  ) 
 Here is how much of TeX's memory you used:
- 17702 strings out of 475380
- 343494 string characters out of 2778187
- 732150 words of memory out of 3000000
+ 17703 strings out of 475380
+ 343508 string characters out of 2778187
+ 732255 words of memory out of 3000000
  38707 multiletter control sequences out of 15000+600000
  493736 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1213,9 +1210,9 @@ ic/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type
 /type1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on B.Tech_mini.pdf (39 pages, 5439320 bytes).
+Output written on B.Tech_mini.pdf (39 pages, 5439664 bytes).
 PDF statistics:
- 480 PDF objects out of 1000 (max. 8388607)
- 98 named destinations out of 1000 (max. 500000)
+ 484 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
  292 words of extra memory for PDF output out of 10000 (max. 10000000)
 
