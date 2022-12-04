@@ -1,5 +1,32 @@
 \begin{thebibliography}{}
 
+\bibitem[\protect\citeauthoryear{Chellappan, Murty, Krishnan, Sharma, and
+  Senjyu}{Chellappan et~al.}{2022}]{soc}
+Chellappan, K., V.~S. S. C.~S. Murty, N.~Krishnan, G.~Sharma, and T.~Senjyu
+  (2022).
+\newblock Real power loss minimization considering multiple dgs and battery in
+  distribution system.
+\newblock {\em Electric Power Components and Systems\/}~{\em 49\/}(6-7),
+  563--572.
+
+\bibitem[\protect\citeauthoryear{Koundinya, Vignesh, Narayanan, Sharma, and
+  Senjyu}{Koundinya et~al.}{2020}]{33bus}
+Koundinya, N.~S., S.~Vignesh, K.~Narayanan, G.~Sharma, and T.~Senjyu (2020,
+  nov).
+\newblock Voltage stability analysis of distribution systems in the presence of
+  electric vehicle charging stations with uncoordinated charging scheme.
+\newblock {IEEE}.
+
+\bibitem[\protect\citeauthoryear{Koundinya Sistla Pavan Venkat~Sai, Shivkumar,
+  Krishnan, Sharma, and Senjyu}{Koundinya Sistla Pavan Venkat~Sai
+  et~al.}{2021}]{base}
+Koundinya Sistla Pavan Venkat~Sai, N., V.~Shivkumar, N.~Krishnan, G.~Sharma,
+  and T.~Senjyu (2021).
+\newblock Voltage stability analysis of distribution systems in presence of
+  electric vehicle charging stations with coordinated charging scheme.
+\newblock {\em International Transactions on Electrical Energy Systems\/}~{\em
+  31\/}(12), e13248.
+
 \bibitem[\protect\citeauthoryear{Lee, Li, and Low}{Lee et~al.}{2019}]{evdata}
 Lee, Z.~J., T.~Li, and S.~H. Low (2019, June).
 \newblock {ACN}-{Data}: {Analysis} and {Applications} of an {Open} {EV}
@@ -20,5 +47,30 @@ Savier, J. and D.~Das (2007).
   distribution systems.
 \newblock {\em IEEE Transactions on Power Delivery\/}~{\em 22\/}(4),
   2473--2480.
+
+\bibitem[\protect\citeauthoryear{Senthilkumar, Samidurai, Nedunchezian,
+  Krishnan, Sharma, and Senjyu}{Senthilkumar et~al.}{2021}]{rtp}
+Senthilkumar, P., S.~Samidurai, V.~Nedunchezian, N.~Krishnan, G.~Sharma, and
+  T.~Senjyu (2021).
+\newblock Profit maximization in hybrid microgrid system incorporating demand
+  response and plug in ev.
+\newblock {\em International Transactions on Electrical Energy Systems\/}~{\em
+  31\/}(12), e13260.
+
+\bibitem[\protect\citeauthoryear{Simolin, Rautiainen, J{\"a}rventausta, Rauma,
+  and Rehtanz}{Simolin et~al.}{2022}]{simolin2022assessing}
+Simolin, T., A.~Rautiainen, P.~J{\"a}rventausta, K.~Rauma, and C.~Rehtanz
+  (2022).
+\newblock Assessing the influence of electric vehicle charging profile
+  modelling methods.
+\newblock {\em IET Generation, Transmission \& Distribution\/}.
+
+\bibitem[\protect\citeauthoryear{Zhang, Zhang, Yang, and Sun}{Zhang
+  et~al.}{2022}]{zhang2022fast}
+Zhang, M., Q.~Zhang, X.~Yang, and Q.~Sun (2022).
+\newblock Fast charging load guidance strategy based on adjustable charging
+  service fee.
+\newblock {\em IET Generation, Transmission \& Distribution\/}~{\em 16\/}(16),
+  3297--3317.
 
 \end{thebibliography}

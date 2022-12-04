@@ -57,6 +57,28 @@
 	
 	\section{Flowchart}
 	
+	1. With the help of the device data calculate the time period T for which the vehicle is
+	connected to the grid.
+	
+	\noindent 2. Calculate SoC threshold,t for every vehicle.
+	
+	\noindent 3. The SoC residual,t and SoC consumed,t are determined for the time block t
+	\noindent 4. The SoC residual,t is compared with SoC threshold,t
+	\begin{itemize}
+
+
+	 \item If the condition is true then the time must be equal peak demand. If it is equal then
+	the vehicle stays idle. If the time is not equal to peak demand then it is then
+	checked with the real price algorithm and if it satisfies the algorithm ten the
+	vehicle goes to charging, if not the vehicle stays idle.
+	
+	\item If the condition is not true then time is checked with the peak demand and the
+	vehicle is given a priority of either 1 or 0. 1 means the vehicle has to charge and if
+	0 then the vehicle discharges when the time is equal to peak demand. When t and
+	peak demand are not equal the vehicle stays idle.
+	
+		\end{itemize}
+	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Figures/Ev_flowchart}
