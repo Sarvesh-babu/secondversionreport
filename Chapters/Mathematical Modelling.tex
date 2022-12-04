@@ -12,18 +12,18 @@
 		                             SoC_{min} \leq SoC \leq SoC_{max}\label{eq:socminmax}
 		    \end{equation}
 	    
-where `$SoC_{min}$'  and `$SoC_{max}$' are the minimum and maximum values of SoC and the values are 20 percent and 80 percent of SoC.
+where `$SoC_{min}$'  and `$SoC_{max}$' are the minimum and maximum values of SoC and the values are 20 \% and 80 \% respectively.
 		    \begin{equation}                         
 		               SoC_{y} = SoC_{y-1} + P_{batt}(y) \times \partial y \times \eta c
 			\end{equation}
 		
-		Where `$SoC_{y}$' is the state of charge in present hour and `$SoC_{y-1}$' is the state of charge in the previous hour. `$P_{battery}(y)$' represents the power of the battery in the present hour. `$\partial y$' is the time interval and `$\eta c$' is the charging efficiency which is considered to be 100 percent. 
+		Where `$SoC_{y}$' is the state of charge in present hour and `$SoC_{y-1}$' is the state of charge in the previous hour. `$P_{battery}(y)$' represents the power of the battery in the present hour. `$\partial y$' is the time interval and `$\eta c$' is the charging efficiency which is considered to be 100 \%. 
 		
 		    \begin{equation}             
 		               SoC_{y} = SoC_{y-1} - P_{batt}(y) \times \partial y \times \eta d
 			\end{equation}
 		
-		Where `$SoC_{y}$' is the state of charge in present hour and `$SoC_{y-1}$' is the state of charge in the previous hour. `$P_{battery}(y)$' represents the power of the battery in the present hour. `$\partial y$' is the time interval and `$\eta d$' is the discharging efficiency which is considered to be 100 percent.
+		Where `$SoC_{y}$' is the state of charge in present hour and `$SoC_{y-1}$' is the state of charge in the previous hour. `$P_{battery}(y)$' represents the power of the battery in the present hour. `$\partial y$' is the time interval and `$\eta d$' is the discharging efficiency which is considered to be 100 \%.
 		
 		    \begin{equation}             
 		               P_{batt}(y) = SoC_{y} \times E
@@ -47,12 +47,20 @@ where `$SoC_{min}$'  and `$SoC_{max}$' are the minimum and maximum values of SoC
 	
 	\begin{equation}
 		\begin{split}
-				T_{n} = \sum_{t=1}^{24} [Ch_{t} \times [1 || 0 || -1 ] ] \ast  Rtp_{i} 
+				T_{n} = \sum_{t=1}^{24} [Ch_{t} \times [1 || 0 || -1 ] ] \ast  Rtp_{t} 
 		\end{split}
     \end{equation}	 
 
-where `$T_{n}$' is the cost of `$n^{th}$' iteration, `$i$' ranges from 1 to 24, `$Ch_{t}$' is the energy delivered at time `$t$' and `$Rtp_{i}$' is the real time price at the `$i^{th}$' iteration.
-`$[ \ 1 \ ||\ 0 \ ||\ -1\ ]$' represents the priority score for charging the vehicles.
+where `$T_{n}$' is the cost of `$n^{th}$' iteration, `$i$' ranges from 1 to 24, `$Ch_{t}$' is the energy delivered at time `$t$' and `$Rtp_{t}$' is the real time price at the `$t^{th}$' time interval.
+
+\noindent where `$[ \ 1 \ ||\ 0 \ ||\ -1\ ]$' represents the priority score for charging the vehicles.
+
+	\begin{itemize}
+		\item `1' - representing Charging
+		\item `0' - representing idle
+		\item `-1' - representing discharging
+	\end{itemize}
+
 
 The function `$argmin$'  is used to find the minimum cost from all the `$n$' iterations.	
 

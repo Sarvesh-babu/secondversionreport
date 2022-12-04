@@ -4,24 +4,12 @@
 	
 	\section{Tabulations}
 	
-	
-	\begin{table}[h]
-		\centering
-	\caption{Power Loss when Ev connected in different busses in 33 bus system for two load profile scenarios}
-		\begin{tabular}{|cl|ll|ll|ll|}
-			\hline
-			\multicolumn{2}{|c|}{\multirow{2}{*}{\textbf{SCENARIO}}} & \multicolumn{2}{c|}{\textbf{Case 1 - (00:00)}}                                                                                                                                                                                   & \multicolumn{2}{c|}{\textbf{Case 2 - (00:20)}}                                                                                                                                                                                   & \multicolumn{2}{c|}{\textbf{Case 3 - (00:40)}}                                                                                                                                                                                   \\ \cline{3-8} 
-			\multicolumn{2}{|c|}{}                                   & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 2 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 18 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 2 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 18 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 2 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 18 (W)\end{tabular}}} \\ \hline
-			\multicolumn{2}{|c|}{\textbf{SCENARIO-1}}                & \multicolumn{1}{l|}{204.1038}                                                                                  & 253.746                                                                                                         & \multicolumn{1}{l|}{65.7725}                                                                                   & 78.4603                                                                                                         & \multicolumn{1}{l|}{204.1038}                                                                                  & 253.746                                                                                                         \\ \hline
-			\multicolumn{2}{|c|}{\textbf{SCENARIO-2}}                & \multicolumn{1}{l|}{189.8325}                                                                                  & 236.9117                                                                                                        & \multicolumn{1}{l|}{178.9671}                                                                                  & 222.4681                                                                                                        & \multicolumn{1}{l|}{189.8325}                                                                                  & 236.9117                                                                                                        \\ \hline
-		\end{tabular}
-			
-	\end{table}
-
-	\begin{table}[!h]
+		\begin{table}[]
+			\caption{Most Economic Time interval to Charge the Vehicle}
+			\centering
 		\begin{tabular}{|l|l|l|l|}
 			\hline
-			\textbf{VEHICLE TYPE}           & \textbf{SCENARIO}         & \textbf{BEST PRICE} & \textbf{HOUR} \\ \hline
+			\textbf{VEHICLE TYPE}           & \textbf{CASE}         & \textbf{BEST PRICE} & \textbf{HOUR} \\ \hline
 			\multirow{3}{*}{\textbf{CAR}}   & \textbf{Case 1 - (00:00)} & - \$1.71            & 12:00         \\ \cline{2-4} 
 			& \textbf{Case 2 - (00:20)} & - \$2.09            & 01:20         \\ \cline{2-4} 
 			& \textbf{Case 3 - (00:40)} & - \$1.58            & 01:40         \\ \hline
@@ -34,44 +22,21 @@
 		\end{tabular}
 	\end{table}
 	
+	\begin{table}[h]
+		\centering
+	\caption{Power Loss when Ev connected in different busses in 33 bus system for two load profile scenarios}	
+		\begin{tabular}{|cl|ll|ll|ll|}
+			\hline
+			\multicolumn{2}{|c|}{\multirow{2}{*}{\textbf{SCENARIO}}} & \multicolumn{2}{c|}{\textbf{Case 1 }}                                                                                                                                                                                   & \multicolumn{2}{c|}{\textbf{Case 2 }}                                                                                                                                                                                   & \multicolumn{2}{c|}{\textbf{Case 3 }}                                                                                                                                                                                   \\ \cline{3-8} 
+			\multicolumn{2}{|c|}{}                                   & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 2 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 18 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 2 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 18 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 2 (W)\end{tabular}}} & \multicolumn{1}{c|}{\textbf{\begin{tabular}[c]{@{}c@{}}Power Loss \\ when Ev in \\ Bus 18 (W)\end{tabular}}} \\ \hline
+			\multicolumn{2}{|c|}{\textbf{SCENARIO-1}}                & \multicolumn{1}{l|}{204.1038}                                                                                  & 253.746                                                                                                         & \multicolumn{1}{l|}{65.7725}                                                                                   & 78.4603                                                                                                         & \multicolumn{1}{l|}{204.1038}                                                                                  & 253.746                                                                                                         \\ \hline
+			\multicolumn{2}{|c|}{\textbf{SCENARIO-2}}                & \multicolumn{1}{l|}{189.8325}                                                                                  & 236.9117                                                                                                        & \multicolumn{1}{l|}{178.9671}                                                                                  & 222.4681                                                                                                        & \multicolumn{1}{l|}{189.8325}                                                                                  & 236.9117                                                                                                        \\ \hline
+		\end{tabular}
+			\label{table:powerloss}
+	\end{table}
 
-%		\begin{table}[h]
-%			\centering
-%			\begin{tabular}{|l|l|l|}
-%				\hline
-%				\textbf{Scenario}         & \textbf{Best price} & \textbf{Hour} \\ \hline
-%				\textbf{Case 1 - (00:00)} & - \$1.71            & 12:00         \\ \hline
-%				\textbf{Case 2 - (00:20)} & - \$2.0988          & 01:20         \\ \hline
-%				\textbf{Case 3 - (00:40)} & - \$1.584           & 01:40         \\ \hline
-%			\end{tabular}
-%			\caption{Best pricing for Car during various connection time}
-%		\end{table}
-%
-%		\begin{table}[h]
-%			\centering
-%			\begin{tabular}{|l|l|l|}
-%				\hline
-%				\textbf{Scenario}         & \textbf{Best price} & \textbf{Hour} \\ \hline
-%				\textbf{Case 1 - (00:00)}  & - \$2.579304 & 05:00         \\ \hline
-%				\textbf{Case 2 - (00:20)} & - \$1.003062667 & 04:20         \\ \hline
-%				\textbf{Case 3 - (00:40)} & - \$2.110840667 & 04:40         \\ \hline
-%			\end{tabular}
-%			\caption{Best pricing for Truck during various connection time}
-%		\end{table}
-%
-%
-%
-%		\begin{table}[h]
-%			\centering
-%			\begin{tabular}{|l|l|l|}
-%				\hline
-%				\textbf{Scenario}         & \textbf{Best price} & \textbf{Hour} \\ \hline
-%				\textbf{Case 1 - (00:00)}  & - \$0.4791666667   & 12:00         \\ \hline
-%				\textbf{Case 2 - (00:20)} & - \$1.25         & 20:20         \\ \hline
-%				\textbf{Case 3 - (00:40)} & - \$0.6958333333 & 11:40         \\ \hline
-%			\end{tabular}
-%			\caption{Best pricing for Bus during various connection time}
-%		\end{table}
+
+	
 
 	\begin{table}[h]
 		\centering
@@ -79,13 +44,37 @@
 		\begin{tabular}{|ll|ll|ll|ll|}
 			\hline
 			\multicolumn{2}{|l|}{\textbf{SCENARIO}} & \multicolumn{2}{l|}{\textbf{HOURLY}} & \multicolumn{2}{l|}{\textbf{20MINS}} & \multicolumn{2}{l|}{\textbf{40 MINS}} \\ \hline
-			\multicolumn{2}{|l|}{SCENARIO 1}        & \multicolumn{2}{l|}{$ 13^{th} $}            & \multicolumn{2}{l|}{$ 6^{th} $}             & \multicolumn{2}{l|}{$ 13^{th} $}             \\ \hline
-			\multicolumn{2}{|l|}{SCENARIO 2}        & \multicolumn{2}{l|}{$ 19^{th} $}           & \multicolumn{2}{l|}{$ 6^{th} $}             & \multicolumn{2}{l|}{$ 19^{th} $}             \\ \hline
+			\multicolumn{2}{|l|}{\textbf{SCENARIO-1}}        & \multicolumn{2}{l|}{$ 13^{th} $}            & \multicolumn{2}{l|}{$ 6^{th} $}             & \multicolumn{2}{l|}{$ 13^{th} $}             \\ \hline
+			\multicolumn{2}{|l|}{\textbf{SCENARIO-2}}        & \multicolumn{2}{l|}{$ 19^{th} $}           & \multicolumn{2}{l|}{$ 6^{th} $}             & \multicolumn{2}{l|}{$ 19^{th} $}             \\ \hline
 		\end{tabular}
 	\end{table}
 		
-
-	
+	\section{Charging Patterns}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\linewidth]{C:/Users/HP/Downloads/cp_case1}
+				\caption{}
+				\label{fig:cpcase1}
+			\end{figure}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\linewidth]{C:/Users/HP/Downloads/cp_case2}
+				\caption{}
+				\label{fig:cpcase2}
+			\end{figure}
+			\begin{figure}
+				\centering
+				\includegraphics[width=0.7\linewidth]{C:/Users/HP/Downloads/cp_case3}
+				\caption{}
+				\label{fig:cpcase3}
+			\end{figure}
+			
+			
+			
+			
+			
+			
+			
 	\section{Voltage Magnitude Graphs for Different Scenarios}
 	
 	 \begin{figure}[!h]
@@ -133,5 +122,5 @@
 
 		
 	
-	\section{*****}
+	
 	

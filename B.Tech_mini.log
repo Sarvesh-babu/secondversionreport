@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.18)  4 DEC 2022 21:37
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.18)  4 DEC 2022 23:11
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -662,7 +662,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 25.
-<SASTRA_Combined_Logo.jpg, id=113, 1195.1049pt x 284.7438pt>
+<SASTRA_Combined_Logo.jpg, id=109, 1195.1049pt x 284.7438pt>
 File: SASTRA_Combined_Logo.jpg Graphic file (type jpg)
 <use SASTRA_Combined_Logo.jpg>
 Package pdftex.def Info: SASTRA_Combined_Logo.jpg  used on input line 72.
@@ -830,8 +830,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 249--255
 ]
 [12
 
-] [13
-
 ] (Chapters/Introduction.tex
 CHAPTER 1.
 
@@ -839,7 +837,7 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.46 		\item T
+l.44 		\item T
               he conclusions of the work is presented in the chapter \ref{ch...
 [1
 
@@ -850,7 +848,7 @@ CHAPTER 2.
 
 ] [4]) (Chapters/Experimental.tex [5]
 CHAPTER 3.
-<./Figures/classification.png, id=288, 499.8675pt x 216.81pt>
+<./Figures/classification.png, id=275, 499.8675pt x 216.81pt>
 File: ./Figures/classification.png Graphic file (type png)
 <use ./Figures/classification.png>
 Package pdftex.def Info: ./Figures/classification.png  used on input line 10.
@@ -858,12 +856,12 @@ Package pdftex.def Info: ./Figures/classification.png  used on input line 10.
 [6
 
  <./Figures/classification.png>]
-<Figures/Ev_flowchart.jpg, id=298, 875.27pt x 869.2475pt>
+<Figures/Ev_flowchart.jpg, id=290, 875.27pt x 869.2475pt>
 File: Figures/Ev_flowchart.jpg Graphic file (type jpg)
 <use Figures/Ev_flowchart.jpg>
 Package pdftex.def Info: Figures/Ev_flowchart.jpg  used on input line 84.
 (pdftex.def)             Requested size: 420.67665pt x 417.77786pt.
-<Figures/rtp.png, id=299, 546.24075pt x 147.55125pt>
+<Figures/rtp.png, id=291, 546.24075pt x 147.55125pt>
 File: Figures/rtp.png Graphic file (type png)
 <use Figures/rtp.png>
 Package pdftex.def Info: Figures/rtp.png  used on input line 94.
@@ -880,52 +878,80 @@ CHAPTER 4.
 ]) (Chapters/Results.tex [11]
 CHAPTER 5.
 
-Overfull \hbox (44.65907pt too wide) in paragraph at lines 11--18
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 7.
+
+
+Overfull \hbox (44.65907pt too wide) in paragraph at lines 28--36
  [][] 
  []
 
-<./Figures/sc1_case1.jpg, id=332, 495.0495pt x 283.65974pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<C:/Users/HP/Downloads/cp_case1.jpg, id=324, 549.252pt x 277.63725pt>
+File: C:/Users/HP/Downloads/cp_case1.jpg Graphic file (type jpg)
+<use C:/Users/HP/Downloads/cp_case1.jpg>
+Package pdftex.def Info: C:/Users/HP/Downloads/cp_case1.jpg  used on input line
+ 55.
+(pdftex.def)             Requested size: 327.19374pt x 165.38896pt.
+<C:/Users/HP/Downloads/cp_case2.jpg, id=325, 522.15076pt x 281.853pt>
+File: C:/Users/HP/Downloads/cp_case2.jpg Graphic file (type jpg)
+<use C:/Users/HP/Downloads/cp_case2.jpg>
+Package pdftex.def Info: C:/Users/HP/Downloads/cp_case2.jpg  used on input line
+ 61.
+(pdftex.def)             Requested size: 327.19374pt x 176.62216pt.
+<C:/Users/HP/Downloads/cp_case3.jpg, id=326, 533.5935pt x 284.262pt>
+File: C:/Users/HP/Downloads/cp_case3.jpg Graphic file (type jpg)
+<use C:/Users/HP/Downloads/cp_case3.jpg>
+Package pdftex.def Info: C:/Users/HP/Downloads/cp_case3.jpg  used on input line
+ 67.
+(pdftex.def)             Requested size: 327.19374pt x 174.31476pt.
+<./Figures/sc1_case1.jpg, id=327, 495.0495pt x 283.65974pt>
 File: ./Figures/sc1_case1.jpg Graphic file (type jpg)
 <use ./Figures/sc1_case1.jpg>
-Package pdftex.def Info: ./Figures/sc1_case1.jpg  used on input line 94.
+Package pdftex.def Info: ./Figures/sc1_case1.jpg  used on input line 83.
 (pdftex.def)             Requested size: 226.6982pt x 140.83833pt.
-<./Figures/sc2_case1.jpg, id=333, 490.83376pt x 277.63725pt>
+<./Figures/sc2_case1.jpg, id=328, 490.83376pt x 277.63725pt>
 File: ./Figures/sc2_case1.jpg Graphic file (type jpg)
 <use ./Figures/sc2_case1.jpg>
-Package pdftex.def Info: ./Figures/sc2_case1.jpg  used on input line 100.
+Package pdftex.def Info: ./Figures/sc2_case1.jpg  used on input line 89.
 (pdftex.def)             Requested size: 226.69998pt x 140.84328pt.
-<./Figures/sc1_case2.jpg, id=334, 491.436pt x 286.671pt>
+<./Figures/sc1_case2.jpg, id=329, 491.436pt x 286.671pt>
 File: ./Figures/sc1_case2.jpg Graphic file (type jpg)
 <use ./Figures/sc1_case2.jpg>
-Package pdftex.def Info: ./Figures/sc1_case2.jpg  used on input line 106.
+Package pdftex.def Info: ./Figures/sc1_case2.jpg  used on input line 95.
 (pdftex.def)             Requested size: 226.70068pt x 140.84619pt.
-<./Figures/sc2_case2.jpg, id=335, 495.65175pt x 277.63725pt>
+<./Figures/sc2_case2.jpg, id=330, 495.65175pt x 277.63725pt>
 File: ./Figures/sc2_case2.jpg Graphic file (type jpg)
 <use ./Figures/sc2_case2.jpg>
-Package pdftex.def Info: ./Figures/sc2_case2.jpg  used on input line 112.
+Package pdftex.def Info: ./Figures/sc2_case2.jpg  used on input line 101.
 (pdftex.def)             Requested size: 226.70172pt x 140.84328pt.
-<./Figures/sc1_case3.jpg, id=336, 493.845pt x 281.853pt>
+<./Figures/sc1_case3.jpg, id=331, 493.845pt x 281.853pt>
 File: ./Figures/sc1_case3.jpg Graphic file (type jpg)
 <use ./Figures/sc1_case3.jpg>
-Package pdftex.def Info: ./Figures/sc1_case3.jpg  used on input line 118.
+Package pdftex.def Info: ./Figures/sc1_case3.jpg  used on input line 107.
 (pdftex.def)             Requested size: 226.69672pt x 140.84444pt.
-<./Figures/sc2_case3.jpg, id=337, 483.0045pt x 287.8755pt>
+<./Figures/sc2_case3.jpg, id=332, 483.0045pt x 287.8755pt>
 File: ./Figures/sc2_case3.jpg Graphic file (type jpg)
 <use ./Figures/sc2_case3.jpg>
-Package pdftex.def Info: ./Figures/sc2_case3.jpg  used on input line 124.
+Package pdftex.def Info: ./Figures/sc2_case3.jpg  used on input line 113.
 (pdftex.def)             Requested size: 226.69522pt x 140.84499pt.
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 92--128
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 81--117
 [][] []
  []
 
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 92--128
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 81--117
 [] []
  []
 
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 92--128
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 81--117
 [] [] 
  []
 
@@ -934,9 +960,11 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ) (Chapters/Conclusion.tex [12
 
-] [13 <./Figures/sc1_case1.jpg> <./Figures/sc2_case1.jpg> <./Figures/sc1_case2.
-jpg> <./Figures/sc2_case2.jpg> <./Figures/sc1_case3.jpg> <./Figures/sc2_case3.j
-pg>]
+] [13 <C:/Users/HP/Downloads/cp_case1.jpg> <C:/Users/HP/Downloads/cp_case2.jpg>
+ <C:/Users/HP/Downloads/cp_case3.jpg>] [14]
+[15 <./Figures/sc1_case1.jpg> <./Figures/sc2_case1.jpg> <./Figures/sc1_case2.jp
+g> <./Figures/sc2_case2.jpg> <./Figures/sc1_case3.jpg> <./Figures/sc2_case3.jpg
+>]
 CHAPTER 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--17
@@ -953,7 +981,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--17
 
  []
 
-[14
+[16
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 29--36
@@ -970,7 +998,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--36
 
  []
 
-[15]
+[17]
 Underfull \hbox (badness 10000) in paragraph at lines 48--55
 
  []
@@ -985,11 +1013,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--55
 
  []
 
-[16]) (B.Tech_mini.bbl) (Chapters/appendix.tex [17
+[18]) (B.Tech_mini.bbl) (Chapters/appendix.tex [19
 
 ]
 APPENDIX A.
-<./Figures/33bus_singleline_diagram_tieline_t1.jpg, id=368, 205.9695pt x 61.670
+<./Figures/33bus_singleline_diagram_tieline_t1.jpg, id=372, 205.9695pt x 61.670
 4pt>
 File: ./Figures/33bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 
@@ -997,7 +1025,7 @@ File: ./Figures/33bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Figures/33bus_singleline_diagram_tieline_t1.jpg  use
 d on input line 7.
 (pdftex.def)             Requested size: 467.42168pt x 139.9531pt.
-[18
+[20
 
  <./Figures/33bus_singleline_diagram_tieline_t1.jpg>]
 ! Misplaced \noalign.
@@ -1066,7 +1094,7 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[19]
+[21]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1080,9 +1108,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[20]
+[22]
 APPENDIX B.
-<./Figures/69bus_singleline_diagram_tieline_t1.jpg, id=385, 2544.50626pt x 972.
+<./Figures/69bus_singleline_diagram_tieline_t1.jpg, id=389, 2544.50626pt x 972.
 63374pt>
 File: ./Figures/69bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 
@@ -1090,7 +1118,7 @@ File: ./Figures/69bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Figures/69bus_singleline_diagram_tieline_t1.jpg  use
 d on input line 128.
 (pdftex.def)             Requested size: 467.42168pt x 178.65808pt.
-[21
+[23
 
  <./Figures/69bus_singleline_diagram_tieline_t1.jpg>]
 ! Misplaced \noalign.
@@ -1118,7 +1146,7 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[22]
+[24]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
@@ -1144,7 +1172,7 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[23] [24]
+[25] [26]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1158,52 +1186,36 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [25] (B.Tech_mini.aux)
+) [27] (B.Tech_mini.aux)
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
 Package rerunfilecheck Info: File `B.Tech_mini.out' has not changed.
-(rerunfilecheck)             Checksum: 902035152FCD7FFFB1BA2F053EA64D7B;4019.
+(rerunfilecheck)             Checksum: 13443C6676BD472C5EDEBEE6CC36FA38;3972.
  ) 
 Here is how much of TeX's memory you used:
- 17660 strings out of 475380
- 342012 string characters out of 2778187
- 732021 words of memory out of 3000000
- 38668 multiletter control sequences out of 15000+600000
+ 17702 strings out of 475380
+ 343494 string characters out of 2778187
+ 732150 words of memory out of 3000000
+ 38707 multiletter control sequences out of 15000+600000
  493736 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  70i,15n,78p,1319b,1010s stack positions out of 10000i,1000n,20000p,200000b,80000s
-
-pdfTeX warning (dest): name{table.caption.15} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{table.caption.14} has been referenced but does not 
-exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.19} has been referenced but does not
- exist, replaced by a fixed one
-
-
-pdfTeX warning (dest): name{figure.caption.18} has been referenced but does not
- exist, replaced by a fixed one
-
-{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/User
-s/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C
-:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.
-pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mmi8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
-/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/ams
-fonts/cm/cmr8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public
-/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/
-public/amsfonts/cm/cmsy8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/t
-ype1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type
-1/urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/u
-rw/times/utmri8a.pfb>
-Output written on B.Tech_mini.pdf (38 pages, 5127128 bytes).
+{C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Us
+ers/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb>
+<C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
+2.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm
+/cmmi8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
+ts/cm/cmr12.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/a
+msfonts/cm/cmr8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/publ
+ic/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type
+1/public/amsfonts/cm/cmsy8.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts
+/type1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/ty
+pe1/urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1
+/urw/times/utmri8a.pfb>
+Output written on B.Tech_mini.pdf (39 pages, 5439320 bytes).
 PDF statistics:
- 476 PDF objects out of 1000 (max. 8388607)
- 99 named destinations out of 1000 (max. 500000)
- 285 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 480 PDF objects out of 1000 (max. 8388607)
+ 98 named destinations out of 1000 (max. 500000)
+ 292 words of extra memory for PDF output out of 10000 (max. 10000000)
 

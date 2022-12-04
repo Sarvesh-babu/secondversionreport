@@ -4,8 +4,7 @@
 \contentsline {chapter}{ABSTRACT}{v}{chapter*.2}%
 \contentsline {chapter}{LIST OF FIGURES}{x}{chapter*.4}%
 \contentsline {chapter}{LIST OF TABLES}{xi}{chapter*.5}%
-\contentsline {chapter}{ABBREVIATIONS}{xii}{chapter*.6}%
-\contentsline {chapter}{NOTATIONS}{xiii}{chapter*.7}%
+\contentsline {chapter}{NOTATIONS}{xii}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}LITERATURE SURVEY}{3}{chapter.2}%
 \contentsline {chapter}{\numberline {3}METHODOLOGY}{6}{chapter.3}%
@@ -20,9 +19,9 @@
 \contentsline {section}{\numberline {4.3}Maximum Power required by EV}{11}{section.4.3}%
 \contentsline {chapter}{\numberline {5}RESULTS \& DISCUSSION}{12}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Tabulations}{12}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Voltage Magnitude Graphs for Different Scenarios}{12}{section.5.2}%
-\contentsline {section}{\numberline {5.3}*****}{12}{section.5.3}%
-\contentsline {chapter}{\numberline {6}CONCLUSIONS AND FURTHER WORK}{14}{chapter.6}%
-\contentsline {chapter}{REFERENCES}{17}{chapter.6}%
-\contentsline {chapter}{\numberline {A}IEEE 33 BUS SYSTEM}{18}{appendix.A}%
-\contentsline {chapter}{\numberline {B}IEEE 69 BUS SYSTEM}{21}{appendix.B}%
+\contentsline {section}{\numberline {5.2}Charging Patterns}{12}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Voltage Magnitude Graphs for Different Scenarios}{12}{section.5.3}%
+\contentsline {chapter}{\numberline {6}CONCLUSIONS AND FURTHER WORK}{16}{chapter.6}%
+\contentsline {chapter}{REFERENCES}{19}{chapter.6}%
+\contentsline {chapter}{\numberline {A}IEEE 33 BUS SYSTEM}{20}{appendix.A}%
+\contentsline {chapter}{\numberline {B}IEEE 69 BUS SYSTEM}{23}{appendix.B}%
