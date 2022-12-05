@@ -1,5 +1,6 @@
 	\chapter{Mathematical Modelling}
 	\label{chap:mathmodel}
+	This chapter deals with the Mathematical models involved in the SoC calculation, Charging pattern identification and maximum power demand created by the inclusion of EVs.
 	
 	\section{SoC Calculation}
 	
@@ -41,7 +42,7 @@ where `$SoC_{min}$'  and `$SoC_{max}$' are the minimum and maximum values of SoC
 	   This constraint allows the SoC to vary between predefined minimum and maximum SoC.               
 	
 	\section{Best Pattern for charging}
-	
+	\label{chap:best}
 	
 	The charging pattern is determined by comparing the Energy required to the Real Time Price and by  identifying the minimum of it. 
 	
@@ -49,6 +50,7 @@ where `$SoC_{min}$'  and `$SoC_{max}$' are the minimum and maximum values of SoC
 		\begin{split}
 				T_{n} = \sum_{t=1}^{24} [Ch_{t} \times [1 || 0 || -1 ] ] \ast  Rtp_{t} 
 		\end{split}
+		\label{eqn:bestpattern}
     \end{equation}	 
 
 where `$T_{n}$' is the cost of `$n^{th}$' iteration, `$i$' ranges from 1 to 24, `$Ch_{t}$' is the energy delivered at time `$t$' and `$Rtp_{t}$' is the real time price at the `$t^{th}$' time interval.

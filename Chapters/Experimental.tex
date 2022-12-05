@@ -1,6 +1,8 @@
 	\chapter{METHODOLOGY}
 	\label{chap:methodology}
 	
+	This section briefly explains about how the vehicles are classified, how the Travel pattern and Charging/Discharging pattern is formulated and how it is incorporated with `Rtp' to find the best case scenarios. It also explains about the Load profiles took to identify and analyse the 33 bus system and 69 bus system.
+	
 	\section{Vehicle Classification}
 	
 	 Electric vehicles have been classified primarily into four major categories as shown in Figure~\ref{fig:classification} 
@@ -40,9 +42,9 @@
 	
 	A 24 hour time scale is taken for charging/discharging pattern formulation. This time scale is further subdivided into 72 time blocks as the classified vehicles have non-uniform charging time, thereby rounding of time into hourly basis would be inefficient and unprecise. So inorder to increase precision, the 24 hour scale is split into 72 Blocks.
 	
-	\noindent Inorder to find the best charging/discharging/idle pattern equation \eqref{bestpattern} is used and this pattern provides less loss to the grid and is useful to the vehicle owner interms of cost.
+	\noindent Inorder to find the best charging/discharging/idle pattern equation (4.6) is used and this pattern provides less loss to the grid and is useful to the vehicle owner interms of cost.
 	
-	\noindent After running through all successive time logs of vehicles the whole data is analysed with this equation \eqref{argmin} and the connection time which is most profitable for both user and grid is identified.
+	\noindent After running through all successive time logs of vehicles the whole data is analysed with the equation (4.7) and the connection time which is most profitable for both user and grid is identified.
 	
 	
 	\section{Flowchart}
@@ -58,36 +60,57 @@
 	
 		\begin{enumerate}
 
-			 \item 
-			
-			 \item
-		
+			 \item If the SoC is above the Threshold limit there are two viable options either we can discharge or stay idle.
+			 
+
+	 	
+				 	\item Discharging of the vehicle takes place during peak hours.
+					\item Then The Priority score is checked in order to determine whether to charge or keep the vehicle idle. Emergency vehicles and VIP vehicles will have a priority core of `1'.
+
+				
+			 \item If the SoC is below the Threshold limit there are two viable options either we can charge or stay idle.
+			 
+	
+			 		\item Charging of the vehicle takes place during off peak hours.
+			 		\item If it is an off peak hour and the vehicle needs to charge, we run the vehicle data through a Real Time Pricing Algorithm where the time periods and energy required will be compared with `Rtp' and an efficient pattern of charging is identified (\ref{chap:best}).
+			 		
+
 		\end{enumerate}
+		
+		\item Then the time period is incremented and the process repeats till the time period is the total connection time.
 	\end{enumerate}
 	
 	\begin{figure}
 		\centering
 		\includegraphics[width=0.9\linewidth]{Figures/Ev_flowchart}
-		\caption{}
+		\caption{Flowchart for Charging/Discharging Pattern}
 		\label{fig:evflowchart}
 	\end{figure}
 
 
 	\section{Real Time Price}
+		Real Time Price(`$RTP$') is the cost structure in which the cost for per-$kWh$ varies for every hour. Based on `$RTP$' on previous and successive hour it can be decided at which hour the vehicle has to charge, stay idle or to discharge during peak demand. During peak hours it observed that the cost is higher and the vehile can be charged at that time block. 
+		
 	
 		\begin{figure}[!h]
 			\centering
 			\includegraphics[width=0.7\linewidth]{Figures/rtp}
-			\caption{}
+			\caption{Real Time Price}
 			\label{fig:rtp}
 		\end{figure}
+	
+		The product of Charging/Discharging patterns of vehicles (fig \ref{fig:cpcase1} \ref{fig:cpcase2} \ref{fig:cpcase3}) and `$RTP$' are calculated to find the most economical time interval to charge the vehicle. The charge/discharge pattern for each time interval is multiplied correspondingly with the `$RTP$'. The cost for each time interval are cumulatively added together to arrive at the total cost using equation \ref{eqn:bestpattern} and then `$argmin$' function is used to find the lowest or minimum cost using equation \ref{eqn:argmin}. 
+	
+	
 	\section{Load Profile}
 		\begin{figure}
 			\centering
-			\includegraphics[width=0.7\linewidth]{C:/Users/HP/Downloads/load_demand}
+			\includegraphics[width=0.7\linewidth]{Figures/load_demand}
 			\caption{}
 			\label{fig:loaddemand}
 		\end{figure}
+		
+
 		
 	
 		

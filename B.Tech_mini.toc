@@ -7,21 +7,24 @@
 \contentsline {chapter}{NOTATIONS}{xii}{chapter*.6}%
 \contentsline {chapter}{\numberline {1}INTRODUCTION}{1}{chapter.1}%
 \contentsline {chapter}{\numberline {2}LITERATURE SURVEY}{3}{chapter.2}%
-\contentsline {chapter}{\numberline {3}METHODOLOGY}{6}{chapter.3}%
-\contentsline {section}{\numberline {3.1}Vehicle Classification}{6}{section.3.1}%
-\contentsline {section}{\numberline {3.2}Travel Pattern Establishment}{6}{section.3.2}%
-\contentsline {section}{\numberline {3.3}Charging/Discharging Pattern Establishment}{7}{section.3.3}%
-\contentsline {section}{\numberline {3.4}Flowchart}{7}{section.3.4}%
+\contentsline {chapter}{\numberline {3}METHODOLOGY}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Vehicle Classification}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Travel Pattern Establishment}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Charging/Discharging Pattern Establishment}{6}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Flowchart}{6}{section.3.4}%
 \contentsline {section}{\numberline {3.5}Real Time Price}{7}{section.3.5}%
-\contentsline {section}{\numberline {3.6}Load Profile}{7}{section.3.6}%
+\contentsline {section}{\numberline {3.6}Load Profile}{8}{section.3.6}%
 \contentsline {chapter}{\numberline {4}Mathematical Modelling}{10}{chapter.4}%
 \contentsline {section}{\numberline {4.1}SoC Calculation}{10}{section.4.1}%
-\contentsline {section}{\numberline {4.2}Best Pattern for charging}{10}{section.4.2}%
+\contentsline {section}{\numberline {4.2}Best Pattern for charging}{11}{section.4.2}%
 \contentsline {section}{\numberline {4.3}Maximum Power required by EV}{11}{section.4.3}%
 \contentsline {chapter}{\numberline {5}RESULTS \& DISCUSSION}{12}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Tabulations}{12}{section.5.1}%
-\contentsline {section}{\numberline {5.2}Charging Patterns}{12}{section.5.2}%
-\contentsline {section}{\numberline {5.3}Voltage Magnitude Graphs for Different Scenarios}{12}{section.5.3}%
+\contentsline {subsection}{\numberline {5.1.1}Economic Charging}{12}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Maximum EV Load}{12}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Power Loss}{13}{subsection.5.1.3}%
+\contentsline {section}{\numberline {5.2}Charging Patterns}{13}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Voltage Magnitude Graphs for Different Scenarios}{14}{section.5.3}%
 \contentsline {chapter}{\numberline {6}CONCLUSIONS AND FURTHER WORK}{16}{chapter.6}%
 \contentsline {chapter}{REFERENCES}{19}{chapter.6}%
 \contentsline {chapter}{\numberline {A}IEEE 33 BUS SYSTEM}{20}{appendix.A}%
