@@ -9,7 +9,7 @@
 	 	
 			\begin{figure}[h]
 				\centering
-				\includegraphics[width=0.7\linewidth]{./Figures/classification}
+				\includegraphics[width=0.9\linewidth]{./Figures/classification}
 				\caption{Vehicle Classification}
 				\label{fig:classification}
 			\end{figure}
@@ -25,30 +25,26 @@
 	
 	Car: ID – 13646 \cite{evdata} is chosen for E-Car as its battery capacity matches with the most common types of E-cars in the market. The
 	battery capacity range of this vehicle is 54 $kWh$. The time taken for 100\% charging of battery
-	happens to be 1 hour 40 minutes. It then continues to Travel for 6 hour 30 minutes after which the Battery's Charge of the vehicle is depleted. This vehicle is connected to the grid for 5 hours 20 minutes until the next trip. The charging/discharging rate is 10.8 $kW$ per twenty minutes.
+	happens to be 1 hour 40 minutes. It then continues to Travel for 6 hour 30 minutes after which the Battery's Charge of the vehicle is depleted. The charging/discharging rate is 10.8 $kW$ per twenty minutes.
 	
 	Truck: ID – 4428 \cite{evdata} is chosen for E-Truck as its battery capacity matches with the most common types of E-Trucks in the market. The
 	battery capacity of this vehicle is 99.2 $kWh$. The time taken for 100\% charging of battery
-	happens to be 4 hours. It then continues to Travel for 14 hours after which the Battery's Charge of the vehicle is depleted. This vehicle is connected to the grid for 10 hours until the next trip. The charging/discharging rate is 8.267 $kW$ per twenty minutes.
+	happens to be 4 hours. It then continues to Travel for 14 hours after which the Battery's Charge of the vehicle is depleted.  The charging/discharging rate is 8.267 $kW$ per twenty minutes.
 	
 	Bus: Vehicle ID – 16034 \cite{evdata} is chosen for E-bus as its battery capacity matches with the most common types of E-Buses in the market. The
 	battery capacity of this vehicle is 199.95 $kWh$. The time taken for 100\% charging of battery
-	happens to be 5 hours 20 minutes. It then continues to Travel for 13 hours after which the Battery's Charge of the vehicle is depleted. This vehicle is connected to the grid for 11 hours until the next trip. The charging/discharging rate is 12.5 $kW$ per twenty minutes.
+	happens to be 5 hours 20 minutes. It then continues to Travel for 13 hours after which the Battery's Charge of the vehicle is depleted. The charging/discharging rate is 12.5 $kW$ per twenty minutes.
 	
 
 
 
 	\section{Charging/Discharging Pattern Establishment}
 	
-	A 24 hour time scale is taken for charging/discharging pattern formulation. This time scale is further subdivided into 72 time blocks as the classified vehicles have non-uniform charging time, thereby rounding of time into hourly basis would be inefficient and unprecise. So inorder to increase precision, the 24 hour scale is split into 72 Blocks.
-	
-	\noindent Inorder to find the best charging/discharging/idle pattern equation (4.6) is used and this pattern provides less loss to the grid and is useful to the vehicle owner interms of cost.
-	
-	\noindent After running through all successive time logs of vehicles the whole data is analysed with the equation (4.7) and the connection time which is most profitable for both user and grid is identified.
+	A 24 hour time scale is taken for charging/discharging pattern formulation. This time scale is further subdivided into 72 time blocks as the classified vehicles have non-uniform charging time, thereby rounding of time into hourly basis would be inefficient and unprecise. So inorder to increase precision, the 24 hour scale is split into 72 Blocks. After establishing all successive time logs of vehicles the whole data is analysed and the best Charging/Discharging/idle pattern and the connection time are established which is profitable for both user and the grid.
 	
 	
-	\section{Flowchart}
-	
+	\section{Structural Outine}
+	 The basic establishment of charging and discharging pattern is shown in figure \ref{fig:evflowchart}.
 	\begin{enumerate}
 		
 		\item Data necessary for the EV charging is collected from the device and the time period for which it will be connected to the grid from the user.
@@ -72,7 +68,7 @@
 			 
 	
 			 		\item Charging of the vehicle takes place during off peak hours.
-			 		\item If it is an off peak hour and the vehicle needs to charge, we run the vehicle data through a Real Time Pricing Algorithm where the time periods and energy required will be compared with `Rtp' and an efficient pattern of charging is identified (\ref{chap:best}).
+			 		\item If it is an off peak hour and the vehicle needs to charge, we run the vehicle data through a Real Time Pricing Algorithm where the time periods and energy required will be compared with `RTP' and an efficient pattern of charging is identified (\ref{chap:best}).
 			 		
 
 		\end{enumerate}
@@ -92,21 +88,34 @@
 		Real Time Price(`$RTP$') is the cost structure in which the cost for per-$kWh$ varies for every hour. Based on `$RTP$' on previous and successive hour it can be decided at which hour the vehicle has to charge, stay idle or to discharge during peak demand. During peak hours it observed that the cost is higher and the vehile can be charged at that time block. 
 		
 	
-		\begin{figure}[!h]
-			\centering
-			\includegraphics[width=0.7\linewidth]{Figures/rtp}
-			\caption{Real Time Price}
-			\label{fig:rtp}
-		\end{figure}
+\begin{table}[!h]
+	\caption{Real Time Price}
+	\begin{tabular}{|c|cl|c|cl|c|cl|}
+		\hline
+		\textbf{HOUR} & \multicolumn{2}{c|}{\textbf{PRICE (\$/kWh)}} & \textbf{HOUR} & \multicolumn{2}{c|}{\textbf{PRICE (\$/kWh)}} & \textbf{HOUR} & \multicolumn{2}{c|}{\textbf{PRICE (\$/kWh)}} \\ \hline
+		\textbf{1}             & \multicolumn{2}{c|}{0.033}                   & \textbf{9}             & \multicolumn{2}{c|}{0.215}                   & \textbf{17}            & \multicolumn{2}{c|}{0.086}                   \\ \hline
+		\textbf{2}             & \multicolumn{2}{c|}{0.027}                   & \textbf{10}            & \multicolumn{2}{c|}{0.572}                   & \textbf{18}            & \multicolumn{2}{c|}{0.059}                   \\ \hline
+		\textbf{3}             & \multicolumn{2}{c|}{0.02}                    & \textbf{11}            & \multicolumn{2}{c|}{0.572}                   & \textbf{19}            & \multicolumn{2}{c|}{0.05}                    \\ \hline
+		\textbf{4}             & \multicolumn{2}{c|}{0.017}                   & \textbf{12}            & \multicolumn{2}{c|}{0.572}                   & \textbf{20}            & \multicolumn{2}{c|}{0.061}                   \\ \hline
+		\textbf{5}             & \multicolumn{2}{c|}{0.017}                   & \textbf{13}            & \multicolumn{2}{c|}{0.215}                   & \textbf{21}            & \multicolumn{2}{c|}{0.181}                   \\ \hline
+		\textbf{6}             & \multicolumn{2}{c|}{0.029}                   & \textbf{14}            & \multicolumn{2}{c|}{0.572}                   & \textbf{22}            & \multicolumn{2}{c|}{0.077}                   \\ \hline
+		\textbf{7}             & \multicolumn{2}{c|}{0.033}                   & \textbf{15}            & \multicolumn{2}{c|}{0.286}                   & \textbf{23}            & \multicolumn{2}{c|}{0.043}                   \\ \hline
+		\textbf{8}             & \multicolumn{2}{c|}{0.054}                   & \textbf{16}            & \multicolumn{2}{c|}{0.279}                   & \textbf{24}            & \multicolumn{2}{c|}{0.037}                   \\ \hline
+	\end{tabular}
+	\label{table:rtp}
+\end{table}
+
 	
-		The product of Charging/Discharging patterns of vehicles (fig \ref{fig:cpcase1} \ref{fig:cpcase2} \ref{fig:cpcase3}) and `$RTP$' are calculated to find the most economical time interval to charge the vehicle. The charge/discharge pattern for each time interval is multiplied correspondingly with the `$RTP$'. The cost for each time interval are cumulatively added together to arrive at the total cost using equation \ref{eqn:bestpattern} and then `$argmin$' function is used to find the lowest or minimum cost using equation \ref{eqn:argmin}. 
+		The product of Charging/Discharging patterns of vehicles (fig \ref{fig:cpcase1} \ref{fig:cpcase2} \ref{fig:cpcase3}) and `$RTP$' are calculated to find the most economical time interval to charge the vehicle. The charge/discharge pattern for each time interval is multiplied correspondingly with the `$RTP$'. The cost for each time interval are cumulatively added together to arrive at the total cost and `$argmin$' function is used to find the minimum cost. 
 	
 	
 	\section{Load Profile}
-		\begin{figure}
+		Two different loading scenarios are considered in the study for 33 and 69 bus system. The variation of load over a period of 24 hours is shown in figure \ref{fig:loaddemand}
+	
+		\begin{figure}[!h]
 			\centering
-			\includegraphics[width=0.7\linewidth]{Figures/load_demand}
-			\caption{}
+			\includegraphics[scale=0.65]{Figures/load_demand}
+			\caption{Load Variation}
 			\label{fig:loaddemand}
 		\end{figure}
 		

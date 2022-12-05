@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.18)  5 DEC 2022 10:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.10) (preloaded format=pdflatex 2022.11.18)  5 DEC 2022 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -645,7 +645,7 @@ nslations-basic-dictionary')
 )
 Package translations Info: loading dictionary `translations-basic-dictionary' f
 or `english'. on input line 25.
-<SASTRA_Combined_Logo.jpg, id=125, 1195.1049pt x 284.7438pt>
+<SASTRA_Combined_Logo.jpg, id=121, 1195.1049pt x 284.7438pt>
 File: SASTRA_Combined_Logo.jpg Graphic file (type jpg)
 <use SASTRA_Combined_Logo.jpg>
 Package pdftex.def Info: SASTRA_Combined_Logo.jpg  used on input line 72.
@@ -733,9 +733,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 121--131
 [3
 
 ]
-Overfull \hbox (26.50307pt too wide) in paragraph at lines 142--143
+Overfull \hbox (18.37918pt too wide) in paragraph at lines 142--143
 []\T1/ptm/m/n/12 We also ren-der our sin-cere thanks to project co-or-di-na-tor
-s, \T1/ptm/b/n/12 Dr. Karthikaikan-nan D\T1/ptm/m/n/12 , SAP/EEE/SEEE
+, \T1/ptm/b/n/12 Dr. Au-gustin Lindiya S\T1/ptm/m/n/12 , SAP/EEE/SEEE
  []
 
 [4
@@ -820,9 +820,8 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.44 		\item T
-              he conclusions of the work is presented in the chapter \ref{ch...
-[1
+l.33 		
+        [1
 
 
 ]) (Chapters/Objectives.tex [2]
@@ -831,123 +830,174 @@ CHAPTER 2.
 
 ]) (Chapters/Experimental.tex [4]
 CHAPTER 3.
-<./Figures/classification.png, id=298, 499.8675pt x 216.81pt>
-File: ./Figures/classification.png Graphic file (type png)
-<use ./Figures/classification.png>
-Package pdftex.def Info: ./Figures/classification.png  used on input line 12.
-(pdftex.def)             Requested size: 327.19374pt x 141.92061pt.
+<./Figures/classification.jpg, id=297, 962.59625pt x 397.485pt>
+File: ./Figures/classification.jpg Graphic file (type jpg)
+<use ./Figures/classification.jpg>
+Package pdftex.def Info: ./Figures/classification.jpg  used on input line 12.
+(pdftex.def)             Requested size: 420.67665pt x 173.70517pt.
 [5
 
- <./Figures/classification.png>] [6]
-<Figures/Ev_flowchart.jpg, id=324, 875.27pt x 869.2475pt>
+ <./Figures/classification.jpg>] [6]
+<Figures/Ev_flowchart.jpg, id=317, 875.27pt x 869.2475pt>
 File: Figures/Ev_flowchart.jpg Graphic file (type jpg)
 <use Figures/Ev_flowchart.jpg>
-Package pdftex.def Info: Figures/Ev_flowchart.jpg  used on input line 85.
+Package pdftex.def Info: Figures/Ev_flowchart.jpg  used on input line 81.
 (pdftex.def)             Requested size: 420.67665pt x 417.77786pt.
- [7 <./Figures/Ev_flowchart.jpg>]
-<Figures/rtp.png, id=334, 546.24075pt x 147.55125pt>
-File: Figures/rtp.png Graphic file (type png)
-<use Figures/rtp.png>
-Package pdftex.def Info: Figures/rtp.png  used on input line 97.
-(pdftex.def)             Requested size: 327.19374pt x 88.38507pt.
-<Figures/load_demand.jpg, id=340, 492.03825pt x 305.34074pt>
+<Figures/load_demand.jpg, id=322, 473.97075pt x 290.2845pt>
 File: Figures/load_demand.jpg Graphic file (type jpg)
 <use Figures/load_demand.jpg>
-Package pdftex.def Info: Figures/load_demand.jpg  used on input line 108.
-(pdftex.def)             Requested size: 327.19374pt x 203.04439pt.
-)
-(Chapters/Mathematical Modelling.tex [8 <./Figures/rtp.png>] [9 <./Figures/load
-_demand.jpg>]
+Package pdftex.def Info: Figures/load_demand.jpg  used on input line 117.
+(pdftex.def)             Requested size: 308.07733pt x 188.68268pt.
+ [7] [8 <./Figures/Ev_flowchart.jpg>])
+(Chapters/Mathematical Modelling.tex [9 <./Figures/load_demand.jpg>]
 CHAPTER 4.
 [10
 
-]) (Chapters/Results.tex [11]
+] [11]) (Chapters/Results.tex [12]
 CHAPTER 5.
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-Overfull \vbox (28.99997pt too high) detected at line 60
- []
-
-[12
-
-]
-<Figures/cp_case1.jpg, id=374, 549.252pt x 277.63725pt>
+<Figures/cp_case1.jpg, id=368, 549.252pt x 277.63725pt>
 File: Figures/cp_case1.jpg Graphic file (type jpg)
 <use Figures/cp_case1.jpg>
-Package pdftex.def Info: Figures/cp_case1.jpg  used on input line 86.
+Package pdftex.def Info: Figures/cp_case1.jpg  used on input line 19.
 (pdftex.def)             Requested size: 327.19374pt x 165.38896pt.
-<Figures/cp_case2.jpg, id=375, 522.15076pt x 281.853pt>
+<Figures/cp_case2.jpg, id=369, 522.15076pt x 281.853pt>
 File: Figures/cp_case2.jpg Graphic file (type jpg)
 <use Figures/cp_case2.jpg>
-Package pdftex.def Info: Figures/cp_case2.jpg  used on input line 93.
+Package pdftex.def Info: Figures/cp_case2.jpg  used on input line 26.
 (pdftex.def)             Requested size: 327.19374pt x 176.62216pt.
-
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Figures/cp_case3.jpg, id=376, 533.5935pt x 284.262pt>
+<Figures/cp_case3.jpg, id=370, 533.5935pt x 284.262pt>
 File: Figures/cp_case3.jpg Graphic file (type jpg)
 <use Figures/cp_case3.jpg>
-Package pdftex.def Info: Figures/cp_case3.jpg  used on input line 100.
+Package pdftex.def Info: Figures/cp_case3.jpg  used on input line 33.
 (pdftex.def)             Requested size: 327.19374pt x 174.31476pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[13 <./Figures/cp_case1.jpg>]
-<./Figures/sc1_case1.jpg, id=390, 495.0495pt x 283.65974pt>
+[13
+
+ <./Figures/cp_case1.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[14 <./Figures/cp_case2.jpg> <./Figures/cp_case3.jpg>] [15]
+Overfull \vbox (43.49995pt too high) detected at line 147
+ []
+
+<./Figures/sc1_case1.jpg, id=399, 495.0495pt x 283.65974pt>
 File: ./Figures/sc1_case1.jpg Graphic file (type jpg)
 <use ./Figures/sc1_case1.jpg>
-Package pdftex.def Info: ./Figures/sc1_case1.jpg  used on input line 124.
+Package pdftex.def Info: ./Figures/sc1_case1.jpg  used on input line 158.
 (pdftex.def)             Requested size: 226.6982pt x 140.83833pt.
-<./Figures/sc2_case1.jpg, id=391, 490.83376pt x 277.63725pt>
+<./Figures/sc2_case1.jpg, id=400, 490.83376pt x 277.63725pt>
 File: ./Figures/sc2_case1.jpg Graphic file (type jpg)
 <use ./Figures/sc2_case1.jpg>
-Package pdftex.def Info: ./Figures/sc2_case1.jpg  used on input line 130.
+Package pdftex.def Info: ./Figures/sc2_case1.jpg  used on input line 164.
 (pdftex.def)             Requested size: 226.69998pt x 140.84328pt.
-<./Figures/sc1_case2.jpg, id=392, 491.436pt x 286.671pt>
+<./Figures/sc1_case2.jpg, id=401, 491.436pt x 286.671pt>
 File: ./Figures/sc1_case2.jpg Graphic file (type jpg)
 <use ./Figures/sc1_case2.jpg>
-Package pdftex.def Info: ./Figures/sc1_case2.jpg  used on input line 136.
+Package pdftex.def Info: ./Figures/sc1_case2.jpg  used on input line 170.
 (pdftex.def)             Requested size: 226.70068pt x 140.84619pt.
-<./Figures/sc2_case2.jpg, id=393, 495.65175pt x 277.63725pt>
+<./Figures/sc2_case2.jpg, id=402, 495.65175pt x 277.63725pt>
 File: ./Figures/sc2_case2.jpg Graphic file (type jpg)
 <use ./Figures/sc2_case2.jpg>
-Package pdftex.def Info: ./Figures/sc2_case2.jpg  used on input line 142.
+Package pdftex.def Info: ./Figures/sc2_case2.jpg  used on input line 176.
 (pdftex.def)             Requested size: 226.70172pt x 140.84328pt.
-<./Figures/sc1_case3.jpg, id=394, 493.845pt x 281.853pt>
+<./Figures/sc1_case3.jpg, id=403, 493.845pt x 281.853pt>
 File: ./Figures/sc1_case3.jpg Graphic file (type jpg)
 <use ./Figures/sc1_case3.jpg>
-Package pdftex.def Info: ./Figures/sc1_case3.jpg  used on input line 148.
+Package pdftex.def Info: ./Figures/sc1_case3.jpg  used on input line 182.
 (pdftex.def)             Requested size: 226.69672pt x 140.84444pt.
-<./Figures/sc2_case3.jpg, id=395, 483.0045pt x 287.8755pt>
+<./Figures/sc2_case3.jpg, id=404, 483.0045pt x 287.8755pt>
 File: ./Figures/sc2_case3.jpg Graphic file (type jpg)
 <use ./Figures/sc2_case3.jpg>
-Package pdftex.def Info: ./Figures/sc2_case3.jpg  used on input line 154.
+Package pdftex.def Info: ./Figures/sc2_case3.jpg  used on input line 188.
 (pdftex.def)             Requested size: 226.69522pt x 140.84499pt.
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 122--158
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 156--192
 [][] []
  []
 
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 122--158
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 156--192
 [] []
  []
 
 
-Overfull \hbox (2.28001pt too wide) in paragraph at lines 122--158
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 156--192
 [] [] 
  []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-) (Chapters/Conclusion.tex [14 <./Figures/cp_case2.jpg> <./Figures/cp_case3.jpg
->] [15 <./Figures/sc1_case1.jpg> <./Figures/sc2_case1.jpg> <./Figures/sc1_case2
-.jpg> <./Figures/sc2_case2.jpg> <./Figures/sc1_case3.jpg> <./Figures/sc2_case3.
-jpg>]
+
+Overfull \vbox (43.49995pt too high) detected at line 210
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[16] [17]
+<./Figures/69_sc1_case1.jpg, id=423, 476.982pt x 278.2395pt>
+File: ./Figures/69_sc1_case1.jpg Graphic file (type jpg)
+<use ./Figures/69_sc1_case1.jpg>
+Package pdftex.def Info: ./Figures/69_sc1_case1.jpg  used on input line 228.
+(pdftex.def)             Requested size: 226.6998pt x 140.84311pt.
+<./Figures/69_sc2_case1.jpg, id=424, 470.35725pt x 272.217pt>
+File: ./Figures/69_sc2_case1.jpg Graphic file (type jpg)
+<use ./Figures/69_sc2_case1.jpg>
+Package pdftex.def Info: ./Figures/69_sc2_case1.jpg  used on input line 234.
+(pdftex.def)             Requested size: 226.70192pt x 140.8475pt.
+<./Figures/69_sc1_case2.jpg, id=425, 485.4135pt x 273.4215pt>
+File: ./Figures/69_sc1_case2.jpg Graphic file (type jpg)
+<use ./Figures/69_sc1_case2.jpg>
+Package pdftex.def Info: ./Figures/69_sc1_case2.jpg  used on input line 240.
+(pdftex.def)             Requested size: 226.70004pt x 140.84492pt.
+<./Figures/69_sc2_case2.jpg, id=426, 472.76625pt x 269.20575pt>
+File: ./Figures/69_sc2_case2.jpg Graphic file (type jpg)
+<use ./Figures/69_sc2_case2.jpg>
+Package pdftex.def Info: ./Figures/69_sc2_case2.jpg  used on input line 246.
+(pdftex.def)             Requested size: 226.70158pt x 140.83809pt.
+<./Figures/69_sc1_case3.jpg, id=427, 483.60675pt x 274.02374pt>
+File: ./Figures/69_sc1_case3.jpg Graphic file (type jpg)
+<use ./Figures/69_sc1_case3.jpg>
+Package pdftex.def Info: ./Figures/69_sc1_case3.jpg  used on input line 252.
+(pdftex.def)             Requested size: 226.70486pt x 140.84157pt.
+<./Figures/69_sc2_case3.jpg, id=428, 462.528pt x 276.43275pt>
+File: ./Figures/69_sc2_case3.jpg Graphic file (type jpg)
+<use ./Figures/69_sc2_case3.jpg>
+Package pdftex.def Info: ./Figures/69_sc2_case3.jpg  used on input line 258.
+(pdftex.def)             Requested size: 226.70421pt x 140.84386pt.
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 226--262
+[][] []
+ []
+
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 226--262
+[] []
+ []
+
+
+Overfull \hbox (2.28001pt too wide) in paragraph at lines 226--262
+[] [] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) (Chapters/Conclusion.tex [18 <./Figures/sc1_case1.jpg> <./Figures/sc2_case1.j
+pg> <./Figures/sc1_case2.jpg> <./Figures/sc2_case2.jpg> <./Figures/sc1_case3.jp
+g> <./Figures/sc2_case3.jpg>] [19 <./Figures/69_sc1_case1.jpg> <./Figures/69_sc
+2_case1.jpg> <./Figures/69_sc1_case2.jpg> <./Figures/69_sc2_case2.jpg> <./Figur
+es/69_sc1_case3.jpg> <./Figures/69_sc2_case3.jpg>]
 CHAPTER 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 10--17
@@ -964,7 +1014,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 10--17
 
  []
 
-[16
+[20
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 29--36
@@ -981,7 +1031,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 29--36
 
  []
 
-[17]
+[21]
 Underfull \hbox (badness 10000) in paragraph at lines 48--55
 
  []
@@ -996,11 +1046,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 48--55
 
  []
 
-[18]) (B.Tech_mini.bbl) (Chapters/appendix.tex [19
+[22]) (B.Tech_mini.bbl) (Chapters/appendix.tex [23
 
 ]
 APPENDIX A.
-<./Figures/33bus_singleline_diagram_tieline_t1.jpg, id=425, 205.9695pt x 61.670
+<./Figures/33bus_singleline_diagram_tieline_t1.jpg, id=458, 205.9695pt x 61.670
 4pt>
 File: ./Figures/33bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 
@@ -1008,7 +1058,7 @@ File: ./Figures/33bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Figures/33bus_singleline_diagram_tieline_t1.jpg  use
 d on input line 7.
 (pdftex.def)             Requested size: 467.42168pt x 139.9531pt.
-[20
+[24
 
  <./Figures/33bus_singleline_diagram_tieline_t1.jpg>]
 ! Misplaced \noalign.
@@ -1037,21 +1087,22 @@ in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
 
-Overfull \vbox (14.49998pt too high) detected at line 17
+Overfull \vbox (17.99445pt too high) detected at line 17
  []
 
 
-Overfull \vbox (14.49998pt too high) detected at line 17
+Overfull \vbox (17.99445pt too high) detected at line 17
  []
 
 
-Overfull \vbox (14.49998pt too high) detected at line 17
+Overfull \vbox (17.99445pt too high) detected at line 17
  []
 
 
-Overfull \vbox (14.49998pt too high) detected at line 17
+Overfull \vbox (17.99445pt too high) detected at line 17
  []
 
+[25]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
@@ -1077,7 +1128,7 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[21]
+[26]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1091,9 +1142,9 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-[22]
+[27]
 APPENDIX B.
-<./Figures/69bus_singleline_diagram_tieline_t1.jpg, id=441, 2544.50626pt x 972.
+<./Figures/69bus_singleline_diagram_tieline_t1.jpg, id=479, 2544.50626pt x 972.
 63374pt>
 File: ./Figures/69bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 
@@ -1101,7 +1152,7 @@ File: ./Figures/69bus_singleline_diagram_tieline_t1.jpg Graphic file (type jpg)
 Package pdftex.def Info: ./Figures/69bus_singleline_diagram_tieline_t1.jpg  use
 d on input line 128.
 (pdftex.def)             Requested size: 467.42168pt x 178.65808pt.
-[23
+[28
 
  <./Figures/69bus_singleline_diagram_tieline_t1.jpg>]
 ! Misplaced \noalign.
@@ -1129,7 +1180,7 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[24]
+[29] [30]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \penalty \@M \futurelet \@let@token \LT@@h...
@@ -1155,7 +1206,7 @@ You have given more \span or & marks than there were
 in the preamble to the \halign or \valign now in progress.
 So I'll assume that you meant to type \cr instead.
 
-[25] [26]
+[31] [32]
 
 ! LaTeX Error: There's no line here to end.
 
@@ -1169,18 +1220,18 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-) [27] (B.Tech_mini.aux)
+) [33] (B.Tech_mini.aux)
 Package rerunfilecheck Info: File `B.Tech_mini.out' has not changed.
-(rerunfilecheck)             Checksum: 4DAF11DD6A33D416D52C42375823056F;4498.
+(rerunfilecheck)             Checksum: 25C320A426521ED66193EB6FABCA7827;4270.
  ) 
 Here is how much of TeX's memory you used:
- 17741 strings out of 475380
- 343643 string characters out of 2778187
- 732653 words of memory out of 3000000
- 38730 multiletter control sequences out of 15000+600000
+ 17831 strings out of 475380
+ 346049 string characters out of 2778187
+ 720452 words of memory out of 3000000
+ 38808 multiletter control sequences out of 15000+600000
  493736 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,16n,78p,1329b,1127s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 70i,16n,78p,1330b,1010s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Us
 ers/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb>
 <C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi1
@@ -1193,9 +1244,9 @@ ic/amsfonts/cm/cmsy10.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type
 /type1/urw/times/utmb8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/ty
 pe1/urw/times/utmr8a.pfb><C:/Users/HP/AppData/Local/Programs/MiKTeX/fonts/type1
 /urw/times/utmri8a.pfb>
-Output written on B.Tech_mini.pdf (39 pages, 5512260 bytes).
+Output written on B.Tech_mini.pdf (45 pages, 5895672 bytes).
 PDF statistics:
- 534 PDF objects out of 1000 (max. 8388607)
- 114 named destinations out of 1000 (max. 500000)
- 329 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 578 PDF objects out of 1000 (max. 8388607)
+ 121 named destinations out of 1000 (max. 500000)
+ 346 words of extra memory for PDF output out of 10000 (max. 10000000)
 
